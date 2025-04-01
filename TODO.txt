@@ -1,0 +1,3 @@
+-) Is torch==2.1.2 still relevant (requirements.txt)?
+-) Updating the jax env: /project/dfreedman/hackathon/hackathon-env-jax/bin/activate
+-) Updating the env: /project/dfreedman/hackathon/hackathon-env/bin/activate
