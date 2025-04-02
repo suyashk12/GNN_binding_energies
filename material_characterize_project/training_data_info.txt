@@ -1,0 +1,16 @@
+Numer of atom types: 55
+atom_types:
+['Ag', 'Al', 'C', 'F', 'H', 'O', 'Ar', 'As', 'B', 'Br', 'N', 'P', 'Cl', 'S', 'I', 'Ba', 'Bi', 'Ti', 'Ge', 'Si', 'Sn', 'Mn', 'Co', 'Fe', 'Cd', 'Hg', 'Se', 'Te', 'Zn', 'D', 'Mo', 'Ni', 'Cr', 'W', 'Re', 'V', 'Cu', 'Mg', 'Rh', 'Osn', 'Ca', 'Cs', 'Xe', 'Sb', 'U', 'Ga', 'In', 'K', 'Kr', 'Li', 'Na', 'Ne', 'Pb', 'Rb', 'Sr']
+
+Number of each atom type:
+{'Ag': 1, 'Al': 22, 'C': 11349, 'F': 2726, 'H': 14030, 'O': 4191, 'Ar': 5, 'As': 11, 'B': 254, 'Br': 233, 'N': 997, 'P': 362, 'Cl': 871, 'S': 256, 'I': 159, 'Ba': 3, 'Bi': 3, 'Ti': 18, 'Ge': 286, 'Si': 303, 'Sn': 51, 'Mn': 126, 'Co': 207, 'Fe': 178, 'Cd': 11, 'Hg': 22, 'Se': 30, 'Te': 27, 'Zn': 8, 'D': 18, 'Mo': 77, 'Ni': 21, 'Cr': 103, 'W': 28, 'Re': 13, 'V': 23, 'Cu': 9, 'Mg': 8, 'Rh': 9, 'Osn': 2, 'Ca': 4, 'Cs': 10, 'Xe': 26, 'Sb': 6, 'U': 2, 'Ga': 1, 'In': 1, 'K': 3, 'Kr': 6, 'Li': 2, 'Na': 4, 'Ne': 4, 'Pb': 4, 'Rb': 1, 'Sr': 4}
+ 
+Numer of orbital types: 17
+Number of each orbital type:
+{'3d5/2': 138, '2p3/2': 387, '2s': 45, '3s': 9, '3d': 86, '1s': 1843, '4d5/2': 32, '4f7/2': 22, '3p3/2': 37, '3p': 7, '4s': 5, '4p3/2': 5, '5s': 1, '5p3/2': 1, '5d5/2': 6, '2p': 91, '4d': 8}
+ 
+Total number of binding energies: 2723
+
+Total number of Graphs: 861
+Number of single atoms: 35
+Number of molecules: 826
