@@ -1,8 +1,8 @@
 #!/usr/bin/bash
-#SBATCH --account=pi-dfreedman
+#SBATCH --account=ai4s-hackathon
+#SBATCH --reservation=ai4s-hackathon
 #SBATCH -p schmidt-gpu
 #SBATCH --gres=gpu:1
-#SBATCH --qos=schmidt
 #SBATCH --time 2:00:00
 
 
@@ -11,15 +11,15 @@ module load python/miniforge-24.1.2 # python 3.10
 echo "output of the visible GPU environment"
 nvidia-smi
 
-# Use hackathon enviroment
-source /project/dfreedman/hackathon/hackathon-env/bin/activate
+# Use material characterization environment
+source activate /project/ai4s-hackathon/ai-sci-hackathon-2025/envs/gnnpytorch
 
 echo PyTorch
 python example_torch.py
-echo Tensorflow
-python example_tf.py
+#echo Tensorflow
+#python example_tf.py
 
 # Use a different environment for JAX
-source /project/dfreedman/hackathon/hackathon-env-jax/bin/activate
-echo JAX
-python example_jax.py
+#source /project/dfreedman/hackathon/hackathon-env-jax/bin/activate
+#echo JAX
+#python example_jax.py
