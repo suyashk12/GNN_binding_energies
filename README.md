@@ -49,13 +49,15 @@ git clone https://github.com/uchicago-dsi/ai-sci-hackathon-2025.git
 
 ## Environment Setup
 
-We have prepared a tech stack with essential packages listed in `requirements.txt` and `requirements_jax.txt`. To use the shared environment:
+We have prepared a tech stack with packages for each project at `material_characterize_project/gnnpytorch_env.yml` and `{RL_ENV_PATH}`. 
+
+To use the shared environment for the material characterization project:
 ```
-source setup.sh
+source setup_material_characterize.sh
 ```
-For JAX-specific projects:
+To use the shared environment for the material characterization project:
 ```
-source /project/dfreedman/hackathon/hackathon-env-jax/bin/activate
+source setup_rl_and_biological_network.sh
 ```
 
 ## Executing Jobs on GPUs
