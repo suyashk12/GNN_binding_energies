@@ -4,7 +4,7 @@ This guide is designed to help you quickly start using the Midway3 system and th
 
 ## Accessing Midway3 on RCC
 
-RCC provides a user guide for accessing the shared cluster systems, available [here](https://rcc-uchicago.github.io/user-guide/). You can use a private partition of Midway3 if your team requires GPU resources for the challenge.
+RCC provides a user guide for accessing the shared cluster systems, available [here](https://rcc-uchicago.github.io/user-guide/). We have reserved a private partition of Midway3 for teams that require GPU resources for the challenge.
 
 ### Logging In
 Use the following command to log into Midway3:
@@ -22,14 +22,14 @@ After logging in, check your permissions by running:
 id
 ```
 
-Your output should include `10162(pi-dfreedman)`. If it does not, contact us immediately.
+Your output should include `11323(ai4s-hackathon)`. If it does not, contact us immediately.
 
 ## Workspace Setup
 
 Create a workspace for your team:
 ```
-mkdir /project/dfreedman/hackathon/your_team_name
-cd /project/dfreedman/hackathon/your_team_name
+mkdir /project/ai4s-hackathon/your_team_name
+cd /project/ai4s-hackathon/your_team_name
 ```
 Store your data and models here, but keep data sizes and file counts reasonable to avoid impacting others.
 
@@ -44,7 +44,7 @@ cd your_name
 
 Clone the hackathon data repository:
 ```
-git clone https://github.com/uchicago-dsi/ai-sci-hackathon-2024.git
+git clone https://github.com/uchicago-dsi/ai-sci-hackathon-2025.git
 ```
 
 ## Environment Setup
