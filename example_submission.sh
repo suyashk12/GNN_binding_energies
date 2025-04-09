@@ -16,8 +16,12 @@ source activate /project/ai4s-hackathon/ai-sci-hackathon-2025/envs/gnnpytorch
 
 echo PyTorch
 python example_torch.py
-#echo Tensorflow
-#python example_tf.py
+
+# Use rl and biological networks environment
+source activate /project/ai4s-hackathon/ai-sci-hackathon-2025/envs/rl+bnpytorch
+
+echo PyTorch
+python example_torch.py
 
 # Use a different environment for JAX
 #source /project/dfreedman/hackathon/hackathon-env-jax/bin/activate
