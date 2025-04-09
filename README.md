@@ -49,7 +49,7 @@ git clone https://github.com/uchicago-dsi/ai-sci-hackathon-2025.git
 
 ## Environment Setup
 
-We have prepared a tech stack with packages for each project at `material_characterize_project/gnnpytorch_env.yml` and `{RL_ENV_PATH}`. 
+We have prepared a tech stack with packages for each project at `material_characterize_project/gnnpytorch_env.yml` and `rl_and_biological_networks/rl_and_biological_networks_env.yml`. 
 
 To use the shared environment for the material characterization project:
 ```
@@ -59,6 +59,23 @@ To use the shared environment for the material characterization project:
 ```
 source setup_rl_and_biological_network.sh
 ```
+
+If you need to install packages in addition to those in the shared environment(s), we recommend using an additional python virtual environment.
+
+To create, activate, and install packages to a virtual environment named `your_venv`:
+```
+mkdir -p /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv
+source <setup_file_for_project.sh>
+python3 -m venv /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv --system-site-packages
+source /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv/bin/activate
+python3 -m pip install --upgrade pip ...
+```
+To just activate this environment:
+```
+source <setup_file_for_project.sh>
+source /project/ai4s-hackathon/your_team_name/venvs/your_name/venvs/your_venv/bin/activate
+```
+To use this environment in jobs run on the cluster, add the command `source /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv/bin/activate` after the `source activate ...` command in your job submission script.
 
 ## Executing Jobs on GPUs
 
