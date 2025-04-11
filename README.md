@@ -55,7 +55,7 @@ To use the shared environment for the material characterization project:
 ```
 source setup_material_characterize.sh
 ```
-To use the shared environment for the material characterization project:
+To use the shared environment for the RL and biological networks project:
 ```
 source setup_rl_and_biological_network.sh
 ```
