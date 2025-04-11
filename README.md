@@ -72,7 +72,7 @@ python3 -m pip install --upgrade pip ...
 ```
 For example, if you want to run the jupyter notebooks contained in `rl_and_biological_network_project/Code/Examples`, you can install `jupyter` in your virtual environment with `pip install jupyter`.
 
-To activate this environment:
+To activate this environment later:
 ```
 source <setup_file_for_project.sh>
 source /project/ai4s-hackathon/your_team_name/venvs/your_name/venvs/your_venv/bin/activate
