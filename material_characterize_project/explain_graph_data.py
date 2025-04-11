@@ -58,7 +58,16 @@ print("\tPossible types are SINGLE, DOUBLE, TRIPLE. use a one-hot encoding for t
 print("\tIn the example above, Node 4 is not bonded to any other atoms.") 
 print("\tTherefore you should turn this data into fully connected graphs and create another 'bond_type' catergory called NONE.\n")
 
-print("The following google colab tutorial is great starting point for molecular graph neural networks in PyTorch:")
+print("One possible way to improving the predictions is to include more features to the graphs")
+print("This can be done through modifying database_2_graph.py, see the comment in line 323 of this code")
+print("This consequence is that traning data size will reduce slightly as the modification will induce rdkit errors,")
+print("for some molecules.\n")
+
+print("The following google colab tutorial is good starting point for molecular graph neural networks in PyTorch:\n")
+
 print("https://colab.research.google.com/github/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb")
-print(" ")
+
+print("\nWe have provided a conda environement that can be used to run the code in this tutorial on the rcc, only")
+print("only the intro and Part 0 of the tutorial is appliciable for this project, as present data does not contain,") 
+print("molecular geometry information.\n")
 
