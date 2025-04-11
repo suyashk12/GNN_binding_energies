@@ -70,12 +70,14 @@ python3 -m venv /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv
 source /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv/bin/activate
 python3 -m pip install --upgrade pip ...
 ```
-To just activate this environment:
+For example, if you want to run the jupyter notebooks contained in `rl_and_biological_network_project/Code/Examples`, you can install `jupyter` in your virtual environment with `pip install jupyter`.
+
+To activate this environment:
 ```
 source <setup_file_for_project.sh>
 source /project/ai4s-hackathon/your_team_name/venvs/your_name/venvs/your_venv/bin/activate
 ```
-To use this environment in jobs run on the cluster, add the command `source /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv/bin/activate` after the `source activate ...` command in your job submission script.
+To use this environment in jobs submitted to the cluster SLURM scheduler, add the command `source /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv/bin/activate` after the `source activate ...` command in your job submission script.
 
 ## Executing Jobs on GPUs
 
