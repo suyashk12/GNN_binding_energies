@@ -3,7 +3,7 @@
 #SBATCH --reservation=ai4s-hackathon
 #SBATCH -p schmidt-gpu
 #SBATCH --gres=gpu:1
-#SBATCH --time 2:00:00
+#SBATCH --time 10:00
 
 
 module load python/miniforge-24.1.2 # python 3.10
@@ -16,6 +16,8 @@ source activate /project/ai4s-hackathon/ai-sci-hackathon-2025/envs/gnnpytorch
 
 echo PyTorch
 python example_torch.py
+
+conda deactivate
 
 # Use rl and biological networks environment
 source activate /project/ai4s-hackathon/ai-sci-hackathon-2025/envs/rl+bnpytorch
