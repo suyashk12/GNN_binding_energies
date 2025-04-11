@@ -25,13 +25,15 @@ If you are not familiar with Graph Neural Networks or AI for Molecular Science h
 https://colab.research.google.com/github/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb
 https://dmol.pub/dl/gnn.html
 
-As a tech stack, you could use:
+This tutorial uses PyTorch and we include a yml file for a conda enviroment that can run the code in this tutorial.
+ 
+List of possible tech stacks:
  - [PyTorch](https://github.com/pytorch) with [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) for graphs.
  - [Flax](https://github.com/google/flax)/[JAX](https://github.com/google/jax) with [jraph](https://github.com/google-deepmind/jraph) as graph library
  - [TensorFlow](https://github.com/tensorflow) with the [GNN sub-module](https://github.com/tensorflow/gnn) for graphs.
 
-But these are just suggestions for inspiration. You are free to choose any model you like to solve this task.
-We emphasize that graphs are permutation invariant, under permuting nodes and edges, so your result should be invariant under this input transformation.
+These and the tutorial are just suggestions for inspiration. 
+You are free to choose any model you like to solve this task.
 
 Good luck!
 
