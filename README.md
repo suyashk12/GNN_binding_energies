@@ -55,6 +55,8 @@ To use the shared environment for the material characterization project:
 ```
 source setup_material_characterize.sh
 ```
+** please check the material_characterize_project/README.md file for additional details about this environment
+
 To use the shared environment for the RL and biological networks project:
 ```
 source setup_rl_and_biological_network.sh
@@ -75,7 +77,7 @@ For example, if you want to run the jupyter notebooks contained in `rl_and_biolo
 To activate this environment later:
 ```
 source <setup_file_for_project.sh>
-source /project/ai4s-hackathon/your_team_name/venvs/your_name/venvs/your_venv/bin/activate
+source /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv/bin/activate
 ```
 To use this environment in jobs submitted to the cluster SLURM scheduler, add the command `source /project/ai4s-hackathon/your_team_name/your_name/venvs/your_venv/bin/activate` after the `source activate ...` command in your job submission script.
 

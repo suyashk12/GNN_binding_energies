@@ -16,7 +16,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C/C(=C\\C(=O)C(F)(F)F)/O[Al](O/C(=C\\C(=O)C(F)(F)F)/C)O/C(=C\\C(=O)C(F)(F)F)/C": {
     "directed": false,
@@ -365,7 +365,7 @@
         "id": 30
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -964,7 +964,7 @@
         "id": 39
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -1410,7 +1410,7 @@
         "id": 21
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -1964,7 +1964,7 @@
         "id": 39
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2181,7 +2181,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[As]12[As]3[As]1[As]23": {
     "directed": false,
@@ -2233,7 +2233,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2283,7 +2283,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C[As](C)C": {
     "directed": false,
@@ -2335,7 +2335,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2425,7 +2425,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -2508,7 +2508,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2598,7 +2598,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2684,7 +2684,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2741,7 +2741,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 1,
@@ -2799,7 +2799,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2900,7 +2900,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -2994,7 +2994,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 1,
@@ -3073,7 +3073,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -3168,7 +3168,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -3268,7 +3268,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -3379,7 +3379,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -3528,7 +3528,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -3670,7 +3670,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -3835,7 +3835,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4014,7 +4014,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4112,7 +4112,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4180,7 +4180,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4256,7 +4256,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4346,7 +4346,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4539,7 +4539,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4767,7 +4767,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4880,7 +4880,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -4964,7 +4964,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -5168,7 +5168,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -5323,7 +5323,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -5502,7 +5502,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -5668,7 +5668,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -5851,7 +5851,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -6008,7 +6008,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -6239,7 +6239,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -6401,7 +6401,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Bi]": {
     "directed": false,
@@ -6420,7 +6420,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Bi].[Bi]": {
     "directed": false,
@@ -6450,7 +6450,7 @@
         "id": 1
       }
     ],
-    "links": []
+    "edges": []
   },
   "C1(=C(C(=C(C(=C1F)F)Br)F)F)F": {
     "directed": false,
@@ -6638,7 +6638,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -6798,7 +6798,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -6907,7 +6907,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -6991,7 +6991,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7053,7 +7053,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7116,7 +7116,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7173,7 +7173,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7236,7 +7236,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7304,7 +7304,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7482,7 +7482,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7611,7 +7611,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7695,7 +7695,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7789,7 +7789,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -7950,7 +7950,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -8242,7 +8242,7 @@
         "id": 22
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -8367,7 +8367,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8423,7 +8423,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8448,7 +8448,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[SiH3]Br": {
     "directed": false,
@@ -8478,7 +8478,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8514,7 +8514,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8550,7 +8550,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8608,7 +8608,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8676,7 +8676,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8821,7 +8821,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -8935,7 +8935,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9019,7 +9019,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9180,7 +9180,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 4,
@@ -9297,7 +9297,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9396,7 +9396,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9480,7 +9480,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9564,7 +9564,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9648,7 +9648,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9732,7 +9732,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9826,7 +9826,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9899,7 +9899,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -9978,7 +9978,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10063,7 +10063,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -10174,7 +10174,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10268,7 +10268,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10362,7 +10362,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10457,7 +10457,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10513,7 +10513,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10560,7 +10560,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10644,7 +10644,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10717,7 +10717,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10780,7 +10780,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10843,7 +10843,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -10911,7 +10911,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -11000,7 +11000,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11117,7 +11117,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11216,7 +11216,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11300,7 +11300,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11384,7 +11384,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11478,7 +11478,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11572,7 +11572,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11733,7 +11733,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11835,7 +11835,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11876,7 +11876,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11923,7 +11923,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -11986,7 +11986,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12043,7 +12043,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12106,7 +12106,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12174,7 +12174,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -12253,7 +12253,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12370,7 +12370,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12458,7 +12458,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12537,7 +12537,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12632,7 +12632,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12721,7 +12721,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12838,7 +12838,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12926,7 +12926,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -12983,7 +12983,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13024,7 +13024,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13060,7 +13060,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -13107,7 +13107,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -13159,7 +13159,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -13200,7 +13200,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -13247,7 +13247,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -13288,7 +13288,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13335,7 +13335,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -13398,7 +13398,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13433,7 +13433,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C([SiH3])(I)I": {
     "directed": false,
@@ -13485,7 +13485,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13553,7 +13553,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -13599,7 +13599,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13635,7 +13635,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13682,7 +13682,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13723,7 +13723,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13759,7 +13759,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -13872,7 +13872,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -13950,7 +13950,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -13996,7 +13996,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -14049,7 +14049,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -14101,7 +14101,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -14159,7 +14159,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -14217,7 +14217,7 @@
         "id": 2
       }
     ],
-    "links": []
+    "edges": []
   },
   "CC[GeH2]Cl": {
     "directed": false,
@@ -14269,7 +14269,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -14332,7 +14332,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -14390,7 +14390,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -14453,7 +14453,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -14598,7 +14598,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -14712,7 +14712,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -14793,7 +14793,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -14869,7 +14869,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -14937,7 +14937,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -15013,7 +15013,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -15092,7 +15092,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -15186,7 +15186,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -15280,7 +15280,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -15374,7 +15374,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -15481,7 +15481,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -15647,7 +15647,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -15760,7 +15760,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -15817,7 +15817,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -15869,7 +15869,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -15932,7 +15932,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -16000,7 +16000,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -16090,7 +16090,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -16168,7 +16168,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -16242,7 +16242,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -16348,7 +16348,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -16442,7 +16442,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -16537,7 +16537,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -16637,7 +16637,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -16737,7 +16737,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -16859,7 +16859,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -17002,7 +17002,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -17172,7 +17172,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -17330,7 +17330,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -17489,7 +17489,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -17653,7 +17653,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -17828,7 +17828,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18008,7 +18008,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18166,7 +18166,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -18260,7 +18260,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18333,7 +18333,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18390,7 +18390,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18464,7 +18464,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18548,7 +18548,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18599,7 +18599,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -18646,7 +18646,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -18698,7 +18698,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -18750,7 +18750,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18813,7 +18813,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -18859,7 +18859,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -18939,7 +18939,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -19006,7 +19006,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19069,7 +19069,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19132,7 +19132,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19206,7 +19206,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19268,7 +19268,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19320,7 +19320,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19383,7 +19383,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19462,7 +19462,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19557,7 +19557,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19668,7 +19668,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19740,7 +19740,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19792,7 +19792,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19844,7 +19844,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -19902,7 +19902,7 @@
         "id": 2
       }
     ],
-    "links": []
+    "edges": []
   },
   "C[SiH2]CI": {
     "directed": false,
@@ -19954,7 +19954,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20011,7 +20011,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20085,7 +20085,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20169,7 +20169,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20253,7 +20253,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20337,7 +20337,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20410,7 +20410,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -20588,7 +20588,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20717,7 +20717,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20801,7 +20801,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -20895,7 +20895,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -21023,7 +21023,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -21162,7 +21162,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -21271,7 +21271,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -21355,7 +21355,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -21450,7 +21450,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -21550,7 +21550,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -21672,7 +21672,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -21815,7 +21815,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -21979,7 +21979,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -22154,7 +22154,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -22345,7 +22345,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -22552,7 +22552,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -22775,7 +22775,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -23058,7 +23058,7 @@
         "id": 18
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -23296,7 +23296,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -23519,7 +23519,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -23648,7 +23648,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -23754,7 +23754,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -23837,7 +23837,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -23949,7 +23949,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -24091,7 +24091,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -24222,7 +24222,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -24305,7 +24305,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -24362,7 +24362,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -24425,7 +24425,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -24493,7 +24493,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -24550,7 +24550,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -24613,7 +24613,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -24681,7 +24681,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -24760,7 +24760,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -24844,7 +24844,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -24939,7 +24939,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25061,7 +25061,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25170,7 +25170,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25265,7 +25265,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25332,7 +25332,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25406,7 +25406,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25500,7 +25500,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25650,7 +25650,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25733,7 +25733,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25812,7 +25812,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -25918,7 +25918,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26061,7 +26061,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26157,7 +26157,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26236,7 +26236,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26320,7 +26320,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26393,7 +26393,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26472,7 +26472,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -26578,7 +26578,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26672,7 +26672,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26767,7 +26767,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -26911,7 +26911,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 1,
@@ -27017,7 +27017,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -27144,7 +27144,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -27298,7 +27298,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -27440,7 +27440,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -27594,7 +27594,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -27758,7 +27758,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -27933,7 +27933,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -28124,7 +28124,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -28320,7 +28320,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -28543,7 +28543,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -28771,7 +28771,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29032,7 +29032,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29220,7 +29220,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -29330,7 +29330,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29441,7 +29441,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29535,7 +29535,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29641,7 +29641,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29757,7 +29757,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29873,7 +29873,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -29989,7 +29989,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -30182,7 +30182,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -30286,7 +30286,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -30375,7 +30375,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -30453,7 +30453,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -30543,7 +30543,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -30654,7 +30654,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -30781,7 +30781,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -30896,7 +30896,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31007,7 +31007,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31090,7 +31090,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31191,7 +31191,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31285,7 +31285,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31369,7 +31369,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31463,7 +31463,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31569,7 +31569,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31685,7 +31685,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31801,7 +31801,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -31917,7 +31917,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -32077,7 +32077,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -32210,7 +32210,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -32360,7 +32360,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -32525,7 +32525,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -32690,7 +32690,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -32811,7 +32811,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -32982,7 +32982,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -33142,7 +33142,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -33322,7 +33322,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -33546,7 +33546,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -33760,7 +33760,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -33999,7 +33999,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -34216,7 +34216,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -34391,7 +34391,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -34615,7 +34615,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -34859,7 +34859,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -35076,7 +35076,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -35255,7 +35255,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -35410,7 +35410,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -35532,7 +35532,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -35708,7 +35708,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 1,
@@ -35830,7 +35830,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -35946,7 +35946,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -36095,7 +36095,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -36231,7 +36231,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -36336,7 +36336,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -36469,7 +36469,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -36605,7 +36605,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -36699,7 +36699,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -36783,7 +36783,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -36900,7 +36900,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -37076,7 +37076,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -37271,7 +37271,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -37483,7 +37483,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -37670,7 +37670,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -37882,7 +37882,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -38031,7 +38031,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -38167,7 +38167,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -38299,7 +38299,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -38436,7 +38436,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -38573,7 +38573,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -38710,7 +38710,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -38847,7 +38847,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -38995,7 +38995,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -39159,7 +39159,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -39339,7 +39339,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -39535,7 +39535,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -39736,7 +39736,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -39937,7 +39937,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -40117,7 +40117,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -40314,7 +40314,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -40549,7 +40549,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -40687,7 +40687,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -40835,7 +40835,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -40983,7 +40983,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -41121,7 +41121,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -41292,7 +41292,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 1,
@@ -41458,7 +41458,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 1,
@@ -41569,7 +41569,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -41712,7 +41712,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -41865,7 +41865,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -42018,7 +42018,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -42138,7 +42138,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -42287,7 +42287,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -42423,7 +42423,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -42544,7 +42544,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -42698,7 +42698,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -42833,7 +42833,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -42938,7 +42938,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -43082,7 +43082,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -43312,7 +43312,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -43510,7 +43510,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -43658,7 +43658,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -43806,7 +43806,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -43954,7 +43954,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -44107,7 +44107,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -44245,7 +44245,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -44437,7 +44437,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -44586,7 +44586,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -44761,7 +44761,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -44968,7 +44968,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -45180,7 +45180,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -45362,7 +45362,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -45500,7 +45500,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -45664,7 +45664,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -45840,7 +45840,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -46041,7 +46041,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -46189,7 +46189,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -46430,7 +46430,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -46632,7 +46632,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -46802,7 +46802,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -46962,7 +46962,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -47144,7 +47144,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -47362,7 +47362,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -47538,7 +47538,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -47709,7 +47709,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -47856,7 +47856,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -47993,7 +47993,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -48185,7 +48185,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -48380,7 +48380,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -48576,7 +48576,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -48734,7 +48734,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -48887,7 +48887,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -49029,7 +49029,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -49155,7 +49155,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -49320,7 +49320,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -49560,7 +49560,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -49813,7 +49813,7 @@
         "id": 18
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -50060,7 +50060,7 @@
         "id": 17
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -50274,7 +50274,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -50526,7 +50526,7 @@
         "id": 17
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -50727,7 +50727,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -50950,7 +50950,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -51194,7 +51194,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -51413,7 +51413,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -51685,7 +51685,7 @@
         "id": 17
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -51866,7 +51866,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -52047,7 +52047,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -52250,7 +52250,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -52426,7 +52426,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -52629,7 +52629,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -52802,7 +52802,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -53021,7 +53021,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -53293,7 +53293,7 @@
         "id": 17
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -53580,7 +53580,7 @@
         "id": 17
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -53759,7 +53759,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -53950,7 +53950,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -54107,7 +54107,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -54261,7 +54261,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -54447,7 +54447,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -54697,7 +54697,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -54940,7 +54940,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -55142,7 +55142,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -55359,7 +55359,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -55578,7 +55578,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -55802,7 +55802,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -56085,7 +56085,7 @@
         "id": 18
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -56333,7 +56333,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -56530,7 +56530,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -56727,7 +56727,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 1,
@@ -56886,7 +56886,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -57088,7 +57088,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -57410,7 +57410,7 @@
         "id": 22
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -57590,7 +57590,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -57814,7 +57814,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -58125,7 +58125,7 @@
         "id": 21
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -58333,7 +58333,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -58513,7 +58513,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -58797,7 +58797,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -59020,7 +59020,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -59288,7 +59288,7 @@
         "id": 18
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -59516,7 +59516,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -59696,7 +59696,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -59876,7 +59876,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -60056,7 +60056,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -60236,7 +60236,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -60525,7 +60525,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -60704,7 +60704,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -61000,7 +61000,7 @@
         "id": 21
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -61312,7 +61312,7 @@
         "id": 22
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -61635,7 +61635,7 @@
         "id": 23
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -61886,7 +61886,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -62107,7 +62107,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -62407,7 +62407,7 @@
         "id": 20
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -62742,7 +62742,7 @@
         "id": 20
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -63165,7 +63165,7 @@
         "id": 28
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -63509,7 +63509,7 @@
         "id": 24
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -63886,7 +63886,7 @@
         "id": 27
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -64252,7 +64252,7 @@
         "id": 26
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -64464,7 +64464,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -64676,7 +64676,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -64954,7 +64954,7 @@
         "id": 18
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -65240,7 +65240,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -65463,7 +65463,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -65706,7 +65706,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -65966,7 +65966,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -66247,7 +66247,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -66503,7 +66503,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -66764,7 +66764,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -66981,7 +66981,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -67215,7 +67215,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -67558,7 +67558,7 @@
         "id": 23
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -67862,7 +67862,7 @@
         "id": 19
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -68106,7 +68106,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -68464,7 +68464,7 @@
         "id": 23
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -68988,7 +68988,7 @@
         "id": 39
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -69617,7 +69617,7 @@
         "id": 39
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -70037,7 +70037,7 @@
         "id": 20
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -70435,7 +70435,7 @@
         "id": 28
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -70898,7 +70898,7 @@
         "id": 33
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -71441,7 +71441,7 @@
         "id": 33
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -71625,7 +71625,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Cd]": {
     "directed": false,
@@ -71646,7 +71646,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "CCCC.[Cd]": {
     "directed": false,
@@ -71709,7 +71709,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -71810,7 +71810,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -71965,7 +71965,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72066,7 +72066,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72156,7 +72156,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72216,7 +72216,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72282,7 +72282,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72332,7 +72332,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72421,7 +72421,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -72510,7 +72510,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72609,7 +72609,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -72682,7 +72682,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72750,7 +72750,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72829,7 +72829,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72902,7 +72902,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -72970,7 +72970,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -73049,7 +73049,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -73122,7 +73122,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -73190,7 +73190,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -73269,7 +73269,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -73386,7 +73386,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -73551,7 +73551,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -73736,7 +73736,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -73965,7 +73965,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -74116,7 +74116,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -74303,7 +74303,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -74510,7 +74510,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -74673,7 +74673,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -74782,7 +74782,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -74888,7 +74888,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -74949,7 +74949,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -74974,7 +74974,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[SiH3]Cl": {
     "directed": false,
@@ -75004,7 +75004,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75040,7 +75040,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75109,7 +75109,7 @@
         "id": 4
       }
     ],
-    "links": []
+    "edges": []
   },
   "N(=O)Cl": {
     "directed": false,
@@ -75150,7 +75150,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -75224,7 +75224,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75292,7 +75292,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -75371,7 +75371,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -75444,7 +75444,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75523,7 +75523,7 @@
         "id": 4
       }
     ],
-    "links": []
+    "edges": []
   },
   "Cl[Ge](Cl)(Cl)Cl": {
     "directed": false,
@@ -75586,7 +75586,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75670,7 +75670,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75764,7 +75764,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75858,7 +75858,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -75942,7 +75942,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -76103,7 +76103,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -76271,7 +76271,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -76496,7 +76496,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -76810,7 +76810,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -77132,7 +77132,7 @@
         "id": 22
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -77368,7 +77368,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -77516,7 +77516,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -77558,7 +77558,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Br-].[Cs+]": {
     "directed": false,
@@ -77588,7 +77588,7 @@
         "id": 1
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Cl-].[Cs+]": {
     "directed": false,
@@ -77618,7 +77618,7 @@
         "id": 1
       }
     ],
-    "links": []
+    "edges": []
   },
   "[F-].[Cs+]": {
     "directed": false,
@@ -77648,7 +77648,7 @@
         "id": 1
       }
     ],
-    "links": []
+    "edges": []
   },
   "[I-].[Cs+]": {
     "directed": false,
@@ -77678,7 +77678,7 @@
         "id": 1
       }
     ],
-    "links": []
+    "edges": []
   },
   "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Cu+2]": {
     "directed": false,
@@ -77785,7 +77785,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -78165,7 +78165,7 @@
         "id": 30
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78368,7 +78368,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78425,7 +78425,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78477,7 +78477,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78540,7 +78540,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78619,7 +78619,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78692,7 +78692,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78782,7 +78782,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -78893,7 +78893,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -79036,7 +79036,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -79151,7 +79151,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -79251,7 +79251,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -79494,7 +79494,7 @@
         "id": 18
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -79688,7 +79688,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -79869,7 +79869,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -80098,7 +80098,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -80337,7 +80337,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -80581,7 +80581,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -80765,7 +80765,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -80835,7 +80835,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "FF": {
     "directed": false,
@@ -80865,7 +80865,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -80912,7 +80912,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -80964,7 +80964,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81038,7 +81038,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -81106,7 +81106,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81169,7 +81169,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81248,7 +81248,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81332,7 +81332,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -81426,7 +81426,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -81499,7 +81499,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81578,7 +81578,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81677,7 +81677,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81761,7 +81761,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81856,7 +81856,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -81956,7 +81956,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82045,7 +82045,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82129,7 +82129,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82223,7 +82223,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82307,7 +82307,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82402,7 +82402,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82514,7 +82514,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82614,7 +82614,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82714,7 +82714,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -82880,7 +82880,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -83054,7 +83054,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -83170,7 +83170,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -83286,7 +83286,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -83402,7 +83402,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -83617,7 +83617,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -83893,7 +83893,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84083,7 +84083,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -84254,7 +84254,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 4,
@@ -84327,7 +84327,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84362,7 +84362,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Ge](I)(I)(I)I": {
     "directed": false,
@@ -84425,7 +84425,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84487,7 +84487,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84539,7 +84539,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84591,7 +84591,7 @@
         "id": 2
       }
     ],
-    "links": []
+    "edges": []
   },
   "[GeH3].[GeH3].[Te]": {
     "directed": false,
@@ -84632,7 +84632,7 @@
         "id": 2
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Hg]": {
     "directed": false,
@@ -84663,7 +84663,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "CC[Hg]CC": {
     "directed": false,
@@ -84726,7 +84726,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84788,7 +84788,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84851,7 +84851,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84919,7 +84919,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -84998,7 +84998,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85082,7 +85082,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85177,7 +85177,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85224,7 +85224,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "II": {
     "directed": false,
@@ -85266,7 +85266,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85335,7 +85335,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85408,7 +85408,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85443,7 +85443,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Kr]": {
     "directed": false,
@@ -85466,7 +85466,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Li]": {
     "directed": false,
@@ -85485,7 +85485,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Mg]": {
     "directed": false,
@@ -85508,7 +85508,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C1C=CC=[C-]1.C1C=CC=[C-]1.[Mg+2]": {
     "directed": false,
@@ -85637,7 +85637,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85891,7 +85891,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -85951,7 +85951,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "CC1=NC([O])=CC=C1.CC1=NC([O])=CC=C1.CC1=NC([O])=CC=C1.CC1=NC([O])=CC=C1.[Mn].[Mn]": {
     "directed": false,
@@ -86333,7 +86333,7 @@
         "id": 33
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -86557,7 +86557,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -86652,7 +86652,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -86763,7 +86763,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -86840,7 +86840,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -86903,7 +86903,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -86993,7 +86993,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -87071,7 +87071,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87128,7 +87128,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87180,7 +87180,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87243,7 +87243,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87311,7 +87311,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87390,7 +87390,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87474,7 +87474,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -87553,7 +87553,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87626,7 +87626,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87705,7 +87705,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87778,7 +87778,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87857,7 +87857,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -87941,7 +87941,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88025,7 +88025,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88109,7 +88109,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88204,7 +88204,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -88293,7 +88293,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -88377,7 +88377,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -88483,7 +88483,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88577,7 +88577,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88661,7 +88661,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88745,7 +88745,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88845,7 +88845,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -88956,7 +88956,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -89050,7 +89050,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -89134,7 +89134,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -89218,7 +89218,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -89302,7 +89302,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -89408,7 +89408,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -89529,7 +89529,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -89650,7 +89650,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -89771,7 +89771,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -89892,7 +89892,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90013,7 +90013,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90156,7 +90156,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90309,7 +90309,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90462,7 +90462,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90582,7 +90582,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90698,7 +90698,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90819,7 +90819,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -90940,7 +90940,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -91072,7 +91072,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -91198,7 +91198,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -91330,7 +91330,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -91456,7 +91456,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -91566,7 +91566,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -91677,7 +91677,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -91782,7 +91782,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -91898,7 +91898,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -92025,7 +92025,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -92162,7 +92162,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -92321,7 +92321,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -92490,7 +92490,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -92659,7 +92659,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -92806,7 +92806,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -92943,7 +92943,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -93080,7 +93080,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -93217,7 +93217,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -93365,7 +93365,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -93529,7 +93529,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -93665,7 +93665,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -93786,7 +93786,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -93907,7 +93907,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -94039,7 +94039,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -94176,7 +94176,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -94313,7 +94313,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -94450,7 +94450,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -94598,7 +94598,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -94740,7 +94740,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -94877,7 +94877,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95014,7 +95014,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95151,7 +95151,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95282,7 +95282,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95414,7 +95414,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95535,7 +95535,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95651,7 +95651,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95767,7 +95767,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -95894,7 +95894,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -96114,7 +96114,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -96312,7 +96312,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -96465,7 +96465,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -96618,7 +96618,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -96771,7 +96771,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -96913,7 +96913,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -97050,7 +97050,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -97209,7 +97209,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -97367,7 +97367,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -97520,7 +97520,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -97662,7 +97662,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -97815,7 +97815,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -97963,7 +97963,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -98116,7 +98116,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -98269,7 +98269,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -98428,7 +98428,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -98592,7 +98592,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -98761,7 +98761,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -98936,7 +98936,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -99126,7 +99126,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -99316,7 +99316,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -99512,7 +99512,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -99713,7 +99713,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -99920,7 +99920,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -100131,7 +100131,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -100364,7 +100364,7 @@
         "id": 13
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -100624,7 +100624,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -100729,7 +100729,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "NN": {
     "directed": false,
@@ -100759,7 +100759,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -100795,7 +100795,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -100842,7 +100842,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -100883,7 +100883,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -100930,7 +100930,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -100993,7 +100993,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -101209,7 +101209,7 @@
         "id": 16
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -101366,7 +101366,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -101428,7 +101428,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Ne]": {
     "directed": false,
@@ -101449,7 +101449,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C1C=CC=[C-]1.C1C=CC=[C-]1.[Ni+2]": {
     "directed": false,
@@ -101578,7 +101578,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -101703,7 +101703,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -101770,7 +101770,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -101838,7 +101838,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -101917,7 +101917,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -101990,7 +101990,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102058,7 +102058,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102137,7 +102137,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102243,7 +102243,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102348,7 +102348,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102448,7 +102448,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102537,7 +102537,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102621,7 +102621,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -102782,7 +102782,7 @@
         "id": 11
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "TRIPLE",
         "source": 0,
@@ -102893,7 +102893,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -103009,7 +103009,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -103136,7 +103136,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -103273,7 +103273,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -103410,7 +103410,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -103553,7 +103553,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -103706,7 +103706,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -103859,7 +103859,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -104023,7 +104023,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -104181,7 +104181,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -104340,7 +104340,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -104504,7 +104504,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -104673,7 +104673,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -104842,7 +104842,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -105011,7 +105011,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -105235,7 +105235,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -105494,7 +105494,7 @@
         "id": 14
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -105622,7 +105622,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -105657,7 +105657,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "OO": {
     "directed": false,
@@ -105687,7 +105687,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -105734,7 +105734,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -105808,7 +105808,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -105849,7 +105849,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -105902,7 +105902,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -105954,7 +105954,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106017,7 +106017,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -106151,7 +106151,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106272,7 +106272,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106361,7 +106361,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106468,7 +106468,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106593,7 +106593,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106709,7 +106709,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106836,7 +106836,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -106971,7 +106971,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107023,7 +107023,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "P12P3P1P23": {
     "directed": false,
@@ -107083,7 +107083,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107213,7 +107213,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107289,7 +107289,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107336,7 +107336,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107443,7 +107443,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107542,7 +107542,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107637,7 +107637,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -107689,7 +107689,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C[Pb](C)(C)C": {
     "directed": false,
@@ -107752,7 +107752,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -107792,7 +107792,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C1C/C(=C\\C(=O)O)/C=C1C2=CC=CC=C2.[Rh]": {
     "directed": false,
@@ -107976,7 +107976,7 @@
         "id": 15
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -108078,7 +108078,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "S1SSSSSSS1": {
     "directed": false,
@@ -108190,7 +108190,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -108327,7 +108327,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -108458,7 +108458,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -108585,7 +108585,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -108739,7 +108739,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -108913,7 +108913,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109000,7 +109000,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109063,7 +109063,7 @@
         "id": 3
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Se].[Se].[Se].[Se]": {
     "directed": false,
@@ -109115,7 +109115,7 @@
         "id": 3
       }
     ],
-    "links": []
+    "edges": []
   },
   "[GeH3][Se][GeH3]": {
     "directed": false,
@@ -109156,7 +109156,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109186,7 +109186,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[SiH3][Se][SiH3]": {
     "directed": false,
@@ -109227,7 +109227,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109312,7 +109312,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -109412,7 +109412,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109512,7 +109512,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109623,7 +109623,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -109739,7 +109739,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109877,7 +109877,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -109992,7 +109992,7 @@
         "id": 5
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -110098,7 +110098,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -110214,7 +110214,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -110341,7 +110341,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -110495,7 +110495,7 @@
         "id": 9
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -110653,7 +110653,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -110823,7 +110823,7 @@
         "id": 10
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -110981,7 +110981,7 @@
         "id": 8
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "DOUBLE",
         "source": 0,
@@ -111173,7 +111173,7 @@
         "id": 12
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111286,7 +111286,7 @@
         "id": 3
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111321,7 +111321,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[SiH3][SiH3]": {
     "directed": false,
@@ -111351,7 +111351,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111398,7 +111398,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111430,7 +111430,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "Br[Sn]Br": {
     "directed": false,
@@ -111471,7 +111471,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111523,7 +111523,7 @@
         "id": 2
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111557,7 +111557,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "O1NC=C2C=NO[TeH]12": {
     "directed": false,
@@ -111653,7 +111653,7 @@
         "id": 7
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111729,7 +111729,7 @@
         "id": 1
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111754,7 +111754,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "[O-2].[F-].[F-].[F-].[V]": {
     "directed": false,
@@ -111817,7 +111817,7 @@
         "id": 4
       }
     ],
-    "links": []
+    "edges": []
   },
   "[Xe]": {
     "directed": false,
@@ -111846,7 +111846,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "O(OOOF)F.[Xe]": {
     "directed": false,
@@ -111945,7 +111945,7 @@
         "id": 6
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,
@@ -111992,7 +111992,7 @@
         "id": 0
       }
     ],
-    "links": []
+    "edges": []
   },
   "C[CH2-].C[CH2-].[Zn+2]": {
     "directed": false,
@@ -112055,7 +112055,7 @@
         "id": 4
       }
     ],
-    "links": [
+    "edges": [
       {
         "bond_type": "SINGLE",
         "source": 0,

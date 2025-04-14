@@ -19,7 +19,7 @@ def load_data_from_string(json_string):
 def _load_data_from_string_dict(string_dict):
 	result_dict = {}
 	for key in string_dict:
-		graph = nx.node_link_graph(string_dict[key])
+		graph = nx.node_link_graph(string_dict[key], edges="edges")
 		result_dict[key] = graph
 	return result_dict
 
