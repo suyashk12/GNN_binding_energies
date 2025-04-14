@@ -4,6 +4,8 @@ from gymnasium import spaces
 from Reward.LinearReward              import LinearReward      as Reward
 from StateReduction.StaticStateSimple import StaticStateSimple as State
 
+from HelperFunctions.check_action import check_action
+
 import numpy as np
 
 class SimulatedNetwork(gym.Env):
@@ -59,6 +61,9 @@ class SimulatedNetwork(gym.Env):
         """
         Apply action and return new state, reward, termination info, and extra info. This process is not time sensitive (i.e. waits for user).
         """
+
+        # Check action:
+        action, msg = check_action(action,self.action_dim)
         
         # Apply action and get response
         spikes = []
@@ -97,7 +102,13 @@ class SimulatedNetwork(gym.Env):
         truncated  = False
         
         # Extra information to get information for the user
-        info = {"spikes": spikes, "elecs": elecs, "missed_cyc": 0, "stim_id": self.stim_id, "simulated": True}
+        info = {"spikes": spikes, 
+                "elecs": elecs, 
+                "action": action,
+                "missed_cyc": 0, 
+                "stim_id": self.stim_id, 
+                "simulated": True,
+                "comment": msg}
 
         return self.state,self.reward,terminated,truncated,info
 

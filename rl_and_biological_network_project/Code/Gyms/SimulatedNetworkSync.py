@@ -4,6 +4,8 @@ from gymnasium import spaces
 from Reward.LinearReward              import LinearReward      as Reward
 from StateReduction.StaticStateSimple import StaticStateSimple as State
 
+from HelperFunctions.check_action import check_action
+
 import multiprocessing
 
 import numpy as np
@@ -133,6 +135,9 @@ class SimulatedNetworkSync(gym.Env):
         Apply action and return new state, reward, termination info, and extra info. This process is not time sensitive (i.e. waits for user).
         """
         
+        # Check action:
+        action, msg = check_action(action,self.action_dim)
+        
         # Apply action and get response 
         while self.response_queue.qsize() > 0:
             self.response_queue.get() # Queue needs to be emptied, if it has elements inside (happens when action is not sent in time)
@@ -150,7 +155,13 @@ class SimulatedNetworkSync(gym.Env):
         truncated  = False
         
         # Extra information to get information for the user
-        info = {"spikes": spikes, "elecs": elecs, "missed_cyc": missed_stimuli, "stim_id": stim_id, "simulated": True}
+        info = {"spikes": spikes, 
+                "elecs": elecs, 
+                "action": action,
+                "missed_cyc": missed_stimuli, 
+                "stim_id": stim_id,
+                "simulated": True,
+                "comment": msg}
 
         return self.state,self.reward,terminated,truncated,info
 
