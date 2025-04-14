@@ -249,7 +249,7 @@ total_be = []
 
 fail_count = 0
 
-PRINT_GRAPHS = False
+PRINT_GRAPHS = True
 
 for i,vali in enumerate(training_molecules):
 
@@ -413,7 +413,7 @@ with open("raw_data.json", "w") as f:
     json.dump(raw_data, f, indent=2)
 
 graph_data_json = {
-    smiles: node_link_data(G) for smiles, G in graph_data.items()
+    smiles: node_link_data(G, edges="edges") for smiles, G in graph_data.items()
 }
 with open("graph_data.json", "w") as f:
     json.dump(graph_data_json, f, indent=2)

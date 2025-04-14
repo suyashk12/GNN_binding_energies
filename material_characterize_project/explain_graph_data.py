@@ -31,16 +31,16 @@ print("'atom_type', 'formal_charge' and 'orbitals' are the attributes available 
 print("\t'atom_type' represents the atomic number, or the number of protons in an atom's nucleus.")
 print("\t\tThis number differentiates elements, e.g., 6 for carbon and 1 for hydrogen.")
 print("\t\tThis dataset contains 55 different atom types, use a one-hot encoding vector of length 55,")
-print("\t\t... or try different atom representations available in the literaturw (SkipAtom, Mat2Vec ...)\n")
+print("\t\t... or try different atom representations available in the literature (SkipAtom, Mat2Vec ...)\n")
 
 print("\t'formal_charge' is the integer charge of the atom in the molecule.\n")
 
-print("\t'orbitals' is a vector of the orbitals types with binding energies values.")
+print("\t'orbitals' is a vector of the orbitals types with binding energy values.")
 print("\t\tThe length of this vector is same length as the binding energies vector.\n")
 
 print("\t'binding_energies' is a vector of the output node labels to predict.\n")
 
-print("The bnding energy data is sparse, notice that many of the orbitals and binding energies above are assigned -1 dummy values.\n")
+print("The binding energy data is sparse, many of the orbitals and binding energies above are assigned -1 dummy values.\n")
 
 print("Furthermore, some graph nodes will have many binding energy values.")
 print("There are even some single atom graphs in the data.")
@@ -58,16 +58,17 @@ print("\tPossible types are SINGLE, DOUBLE, TRIPLE. use a one-hot encoding for t
 print("\tIn the example above, Node 4 is not bonded to any other atoms.") 
 print("\tTherefore you should turn this data into fully connected graphs and create another 'bond_type' catergory called NONE.\n")
 
-print("One possible way to improving the predictions is to include more features to the graphs")
+print("One possible way to improve the predictions is to include more features to the graphs")
 print("This can be done through modifying database_2_graph.py, see the comment in line 323 of this code")
-print("This consequence is that traning data size will reduce slightly as the modification will induce rdkit errors,")
+print("This would will reduce the size of the traning data as the modification will induce rdkit errors,")
 print("for some molecules.\n")
 
 print("The following google colab tutorial is good starting point for molecular graph neural networks in PyTorch:\n")
 
 print("https://colab.research.google.com/github/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb")
 
-print("\nWe have provided a conda environement that can be used to run the code in this tutorial on the rcc, only")
-print("only the intro and Part 0 of the tutorial is appliciable for this project, as present data does not contain,") 
+print("\nThe conda envrionment for this project will enable you to run the code from this tutorial on the gpu's provided\n")
+
+print("Only the intro and Part 0 of the tutorial is appliciable for this project, as the present data does not contain") 
 print("molecular geometry information.\n")
 
