@@ -1,3 +1,29 @@
+# Notes on the PyTorch environment
+
+When you run 
+```
+source setup_material_characterize.sh
+```
+A conda envrionemnt is created that uses the pytorch packages listed in gnnpytorch_requirements.txt
+
+This environment enables teams to build and run their own gnn models from the tutorial below:
+
+https://colab.research.google.com/github/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb
+
+tutorial_code_env_test.py loads all the nessesary packages to run the code from this tutorial and checks the gpu compatibilty
+
+We think that Graph Neural Networks may be an excellent choice for this task
+If you are not familiar with Graph Neural Networks or AI for Molecular Science this would be a great way started. 
+
+However you are free to choose any model you like to solve this task.
+
+This might require setting up you own environments.
+We refer you to the docs for th list of possible tech stacks:
+ - [PyTorch](https://github.com/pytorch) with [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) for graphs.
+ - [Flax](https://github.com/google/flax)/[JAX](https://github.com/google/jax) with [jraph](https://github.com/google-deepmind/jraph) as graph library
+ - [TensorFlow](https://github.com/tensorflow) with the [GNN sub-module](https://github.com/tensorflow/gnn) for graphs.
+
+
 # Main Challenge Information
 
 This sub-directory contains data and some initial code to help you get started. We utilize the Python `json` module to store the training data. 
@@ -18,22 +44,6 @@ The following data is not necessary for completing the main challenges.
 The original data for the extra challenge is in `raw_data.json'. 
 Please inspect, execute and read the output of `explain_raw_data.py' for the details of this challenge.
 
-## Where to Start building your Model
-
-We think that Graph Neural Networks may be an excellent choice to build these models.
-If you are not familiar with Graph Neural Networks or AI for Molecular Science here are some resources to read to get started:
-https://colab.research.google.com/github/chaitjo/geometric-gnn-dojo/blob/main/geometric_gnn_101.ipynb
-https://dmol.pub/dl/gnn.html
-
-This tutorial uses PyTorch and we include a yml file for a conda enviroment that can run the code in this tutorial.
- 
-List of possible tech stacks:
- - [PyTorch](https://github.com/pytorch) with [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) for graphs.
- - [Flax](https://github.com/google/flax)/[JAX](https://github.com/google/jax) with [jraph](https://github.com/google-deepmind/jraph) as graph library
- - [TensorFlow](https://github.com/tensorflow) with the [GNN sub-module](https://github.com/tensorflow/gnn) for graphs.
-
-These and the tutorial are just suggestions for inspiration. 
-You are free to choose any model you like to solve this task.
 
 Good luck!
 
