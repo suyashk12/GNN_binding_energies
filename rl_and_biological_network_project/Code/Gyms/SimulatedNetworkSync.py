@@ -89,7 +89,7 @@ class SimulatedNetworkSync(gym.Env):
             # Apply action and get response
             spikes = []
             elecs  = []
-            for i in range(self.action_dim):
+            for i in range(4):
                 if np.random.random() < 0.1+0.05*i: # This is just to make the system assymetric
                     spikes.append(np.random.random()*20)
                     elecs.append(i)
@@ -97,9 +97,9 @@ class SimulatedNetworkSync(gym.Env):
                 if action[i] == 0:
                     continue
                 elecs.append(action[i]-1)
-                spikes.append(max(0,min(20,(i+1)*4+np.random.randn())))
+                spikes.append(max(0,min(19.9999,(i+1)*4+np.random.randn())))
                 elecs.append(action[i]%4)
-                spikes.append(max(0,min(20,(i+2)*4+np.random.randn())))
+                spikes.append(max(0,min(19.9999,(i+2)*4+np.random.randn())))
             if len(spikes) == 0:
                 response = np.zeros((0,2))
             else:
@@ -143,7 +143,7 @@ class SimulatedNetworkSync(gym.Env):
             self.response_queue.get() # Queue needs to be emptied, if it has elements inside (happens when action is not sent in time)
         self.stimulus_queue.put(action)
         response,missed_stimuli,spikes,elecs,stim_id = self.response_queue.get()     
-
+        
         # Define the space
         self.state  = self.state_object.get_state(response)
         
