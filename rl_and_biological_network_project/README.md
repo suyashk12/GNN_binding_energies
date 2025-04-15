@@ -9,9 +9,9 @@ A conda envrionemnt is created that uses the pytorch packages listed in rl_and_b
 This environment enables teams to build and run their own ML models. We think that Deep Q-Networks (harder) and Multi-Armed Bandits (easier) are excellent choices for this task. However, there might be even better alternatives out there waiting for you to be discovered.
 
 We advice using pytorch, but you can also set up your own environments. We refer you to the docs for th list of possible tech stacks:
- - [PyTorch](https://github.com/pytorch) with [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) for graphs.
- - [Flax](https://github.com/google/flax)/[JAX](https://github.com/google/jax) with [jraph](https://github.com/google-deepmind/jraph) as graph library
- - [TensorFlow](https://github.com/tensorflow) with the [GNN sub-module](https://github.com/tensorflow/gnn) for graphs.
+ - [PyTorch](https://github.com/pytorch)
+ - [Flax](https://github.com/google/flax)/[JAX](https://github.com/google/jax)
+ - [TensorFlow](https://github.com/tensorflow)
 
 
 # Main Challenge Information
