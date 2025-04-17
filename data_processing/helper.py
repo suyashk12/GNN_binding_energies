@@ -1,13 +1,13 @@
 import json
 import networkx as nx
 
-def load_data_from_file(filename):
+def load_data_from_file(filename, edges=True):
     """
     Load a dictionary of graphs from JSON file.
     """
     with open(filename, "r") as file_handle:
         string_dict = json.load(file_handle)
-    return _load_data_from_string_dict(string_dict)
+    return _load_data_from_string_dict(string_dict, edges=edges)
 
 def load_data_from_string(json_string):
     """
@@ -16,12 +16,15 @@ def load_data_from_string(json_string):
     string_dict = json.loads(json_string)
     return _load_data_from_string_dict(string_dict)
 
-def _load_data_from_string_dict(string_dict):
-	result_dict = {}
-	for key in string_dict:
-		graph = nx.node_link_graph(string_dict[key], edges="edges")
-		result_dict[key] = graph
-	return result_dict
+def _load_data_from_string_dict(string_dict, edges=True):
+    result_dict = {}
+    for key in string_dict:
+        if edges:
+            graph = nx.node_link_graph(string_dict[key], edges="edges")
+        else:
+            graph = nx.node_link_graph(string_dict[key], edges="links")
+        result_dict[key] = graph
+    return result_dict
 
 def write_data_to_json_string(graph_dict, **kwargs):
     """
