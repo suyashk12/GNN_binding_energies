@@ -1,5 +1,7 @@
 # Getting Started with Midway3
 
+SK - test
+
 This guide is designed to help you quickly start using the Midway3 system and the hardware provided for this event.
 
 ## Accessing Midway3 on RCC
