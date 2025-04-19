@@ -30,7 +30,8 @@ def write_data_to_json_string(graph_dict, **kwargs):
     """
     Write dictionary of graphs to JSON string.
     """
-    json_string = json.dumps(graph_dict, default=nx.node_link_data, **kwargs)
+    edges_link_data  = lambda x: nx.node_link_data(x, edges="edges")
+    json_string = json.dumps(graph_dict, default=edges_link_data, **kwargs)
     return json_string
 
 
