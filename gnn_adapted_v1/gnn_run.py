@@ -40,7 +40,6 @@ seed(1)
 
 # For storing experimental results over the course of the practical
 RESULTS = {}
-DF_RESULTS = pd.DataFrame(columns=["Test MSE", "Val MSE", "Epoch", "Model"])
 
 # Convert networkx to PyG
 import json
@@ -256,13 +255,17 @@ for i, mol in enumerate(train_data):
     dataset.append(data)
 
 # Build training and testing set
-from sklearn.model_selection import train_test_split
+from torch.utils.data import random_split
+
+print(f"Total number of samples: {len(dataset)}.")
 
 mols = np.array(list(train_data.keys()))
 mols = np.array([mol.split('_')[0] for mol in mols]) # there are no underscores in the molecule names
 
 # Get unique molecules and assign unique indices to each
 unique_molecules, unique_index = np.unique(mols, return_inverse=True)
+
+print(unique_index.max()) # goes from 0 to 859 for the 860 unique molecules
 
 # Choose a random subset of test molecules
 unseen_subset = np.random.choice(np.arange(0, 859), size=200, replace=False) # 100 random molecules
@@ -273,7 +276,10 @@ test_dataset = [dataset[i] for i in range(len(dataset)) if not whitelist[i]] # T
 
 # Split datasets (our 3K subset)
 # Split the dataset into train, validation, and test sets
-train_dataset, val_dataset = train_test_split(train_val_dataset, test_size=0.25, random_state=0, shuffle=True)
+train_size = int(0.75*len(train_val_dataset))
+test_size = len(train_val_dataset)-train_size
+split_seed = torch.Generator().manual_seed(42)
+train_dataset, val_dataset = random_split(train_val_dataset, [train_size, test_size], generator=split_seed)
 
 print(f"Created dataset splits with {len(train_dataset)} training, {len(val_dataset)} validation, {len(test_dataset)} test samples.")
 
@@ -415,7 +421,7 @@ def run_experiment(model, model_name, train_loader, val_loader, test_loader, n_e
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer, mode='min', factor=0.9, patience=10, min_lr=1e-7)
 
-    early_stopping_patience = 15
+    early_stopping_patience = 10
     epochs_since_improvement = 0
     best_val_error = np.inf
     best_test_error = None
@@ -460,42 +466,58 @@ def run_experiment(model, model_name, train_loader, val_loader, test_loader, n_e
     return best_val_error, best_test_error, train_time, perf_per_epoch
 
 # Perform training loop
-model = MPNNModel(num_layers=8, emb_dim=70, in_dim=49, edge_dim=4, out_dim=1)
-model_name = type(model).__name__
+num_layers_grid = np.arange(4,11)
+emb_dim_grid = np.arange(54,104,10)
+
+for i in range(len(num_layers_grid)):
+
+    for j in range(len(emb_dim_grid)):
+
+        num_layers = num_layers_grid[i]
+        emb_dim = emb_dim_grid[j]
+
+        model = MPNNModel(num_layers=num_layers, emb_dim=emb_dim, in_dim=49, edge_dim=4, out_dim=1)
+        model_name = type(model).__name__
 
 
-best_val_error, test_error, train_time, perf_per_epoch = run_experiment(
-    model,
-    model_name,
-    train_loader,
-    val_loader,
-    test_loader,
-    n_epochs=100
-)
-RESULTS[model_name] = (best_val_error, test_error, train_time)
-df_temp = pd.DataFrame(perf_per_epoch, columns=["Test MSE", "Val MSE", "Epoch", "Model"])
-DF_RESULTS = DF_RESULTS.append(df_temp, ignore_index=True)
+        best_val_error, test_error, train_time, perf_per_epoch = run_experiment(
+            model,
+            model_name,
+            train_loader,
+            val_loader,
+            test_loader,
+            n_epochs=200
+        )
 
-# Obtain predictions for test set
-model.eval()
+        # Save model
+        torch.save(model.state_dict(), 'models/l{0}_e{1}_model.pth'.format(num_layers, emb_dim))
+        DF_RESULTS = pd.DataFrame(perf_per_epoch, columns=["Test MSE", "Val MSE", "Epoch", "Model"])
+        DF_RESULTS.to_csv('models/l{0}_e{1}_metrics.csv'.format(num_layers, emb_dim), index=False)
 
-y_pred_list = []
-y0_list = []
-y_test_list = []
+        # Obtain predictions for test set
+        model.eval()
 
+        y_pred_list = []
+        y0_list = []
+        y_test_list = []
 
-for data in test_loader:
-    data = data.to('cpu')
-    with torch.no_grad():
-        y_pred = model(data)
-        
-        y0_list += list(data.y0)
-        y_pred_list = y_pred_list + list(y_pred+data.y0)
-        y_test_list = y_test_list + list(data.y+data.y0)
-        
-y0_arr = np.array(y0_list)
-y_pred_arr = np.array(y_pred_list)
-y_test_arr = np.array(y_test_list)
+        device = next(model.parameters()).device  # Automatically get model's device
 
-# Print performance
-print(np.mean(np.abs(y_pred_arr-y_test_arr)), np.mean(np.abs(y0_arr-y_test_arr)))
+        for data in test_loader:
+            data = data.to(device)
+            with torch.no_grad():
+                y_pred = model(data)
+                
+                y0_list += list(data.y0.cpu())
+                y_pred_list += list((y_pred + data.y0).cpu())
+                y_test_list += list((data.y + data.y0).cpu())
+
+        y0_arr = np.array(y0_list)
+        y_pred_arr = np.array(y_pred_list)
+        y_test_arr = np.array(y_test_list)
+
+        gnn_mae = np.mean(np.abs(y_pred_arr-y_test_arr))
+        lookup_mae = np.mean(np.abs(y0_arr-y_test_arr))
+
+        # Print performance
+        print('num_layers:' + str(num_layers) + ', emb_dim:' + str(emb_dim) + ', gnn_mae:' + str(gnn_mae) + ', lookup_mae:' + str(lookup_mae))

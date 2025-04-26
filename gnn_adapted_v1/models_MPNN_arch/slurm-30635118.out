@@ -1,0 +1,880 @@
+/project/ai4s-hackathon/ai-sci-hackathon-2025/envs/gnnpytorch/lib/python3.10/site-packages/networkx/readwrite/json_graph/node_link.py:287: FutureWarning: 
+The default value will be changed to `edges="edges" in NetworkX 3.6.
+
+To make this warning go away, explicitly set the edges kwarg, e.g.:
+
+  nx.node_link_graph(data, edges="links") to preserve current behavior, or
+  nx.node_link_graph(data, edges="edges") for forward compatibility.
+  warnings.warn(
+Total number of samples: 5192.
+859
+Created dataset splits with 3108 training, 1037 validation, 1047 test samples.
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=54, bias=True)
+  (convs): ModuleList(
+    (0-3): 4 x MPNNLayer(emb_dim=54, aggr=add)
+  )
+  (lin_pred): Linear(in_features=54, out_features=1, bias=True)
+)
+Total parameters: 76195
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 39.7203761, Val MSE: 44.0436953, Test MSE: 37.1364794
+Epoch: 020, LR: 0.000010, Loss: 26.8931955, Val MSE: 30.2219758, Test MSE: 23.3377354
+Epoch: 030, LR: 0.000010, Loss: 18.1011039, Val MSE: 21.6535238, Test MSE: 14.0370611
+Epoch: 040, LR: 0.000010, Loss: 13.2752098, Val MSE: 15.9194996, Test MSE: 9.2537877
+Epoch: 050, LR: 0.000010, Loss: 11.0884247, Val MSE: 13.1762024, Test MSE: 6.4865003
+Epoch: 060, LR: 0.000010, Loss: 8.9975474, Val MSE: 11.2070310, Test MSE: 5.1417520
+Epoch: 070, LR: 0.000010, Loss: 8.2525548, Val MSE: 10.5229091, Test MSE: 4.6895003
+Epoch: 080, LR: 0.000010, Loss: 7.7255391, Val MSE: 10.0004135, Test MSE: 4.1655086
+Epoch: 090, LR: 0.000010, Loss: 7.4049334, Val MSE: 9.8749999, Test MSE: 3.6493226
+Epoch: 100, LR: 0.000010, Loss: 6.4849745, Val MSE: 9.7664142, Test MSE: 3.6380119
+Epoch: 110, LR: 0.000010, Loss: 6.2390300, Val MSE: 9.1051486, Test MSE: 3.4428524
+Epoch: 120, LR: 0.000010, Loss: 6.3351288, Val MSE: 9.0447809, Test MSE: 3.2378937
+
+Early stopping triggered at epoch 125. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 7.91 mins. Best validation MSE: 8.6580169, corresponding test MSE: 3.2378937.
+num_layers:4, emb_dim:54, gnn_mae:1.0511993, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=64, bias=True)
+  (convs): ModuleList(
+    (0-3): 4 x MPNNLayer(emb_dim=64, aggr=add)
+  )
+  (lin_pred): Linear(in_features=64, out_features=1, bias=True)
+)
+Total parameters: 105665
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 35.4500012, Val MSE: 38.5896053, Test MSE: 32.7043884
+Epoch: 020, LR: 0.000010, Loss: 21.3624776, Val MSE: 23.5737925, Test MSE: 16.5619113
+Epoch: 030, LR: 0.000010, Loss: 14.2192195, Val MSE: 16.3522961, Test MSE: 9.3043491
+Epoch: 040, LR: 0.000010, Loss: 11.1178781, Val MSE: 13.8585779, Test MSE: 7.0382006
+Epoch: 050, LR: 0.000010, Loss: 9.4354193, Val MSE: 11.9255012, Test MSE: 5.3004505
+Epoch: 060, LR: 0.000010, Loss: 8.3759641, Val MSE: 10.7719068, Test MSE: 4.4342183
+Epoch: 070, LR: 0.000010, Loss: 7.4614020, Val MSE: 10.4782003, Test MSE: 3.9449979
+Epoch: 080, LR: 0.000010, Loss: 6.8849141, Val MSE: 9.9524418, Test MSE: 3.4458269
+
+Early stopping triggered at epoch 87. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 5.53 mins. Best validation MSE: 9.7279092, corresponding test MSE: 3.4458269.
+num_layers:4, emb_dim:64, gnn_mae:1.2421052, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=74, bias=True)
+  (convs): ModuleList(
+    (0-3): 4 x MPNNLayer(emb_dim=74, aggr=add)
+  )
+  (lin_pred): Linear(in_features=74, out_features=1, bias=True)
+)
+Total parameters: 139935
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 30.2193557, Val MSE: 34.7276862, Test MSE: 27.6234334
+Epoch: 020, LR: 0.000010, Loss: 15.6228263, Val MSE: 17.7999038, Test MSE: 10.4160306
+Epoch: 030, LR: 0.000010, Loss: 11.2648853, Val MSE: 14.2521183, Test MSE: 7.4229318
+Epoch: 040, LR: 0.000010, Loss: 8.6523838, Val MSE: 12.3424460, Test MSE: 5.3839845
+Epoch: 050, LR: 0.000010, Loss: 7.7362130, Val MSE: 11.2070078, Test MSE: 4.5399874
+Epoch: 060, LR: 0.000010, Loss: 7.3731195, Val MSE: 11.3996321, Test MSE: 3.9579697
+Epoch: 070, LR: 0.000010, Loss: 6.8196963, Val MSE: 10.5380505, Test MSE: 3.5317724
+Epoch: 080, LR: 0.000010, Loss: 6.2027380, Val MSE: 10.3542595, Test MSE: 3.2837168
+Epoch: 090, LR: 0.000010, Loss: 6.4075265, Val MSE: 9.5655995, Test MSE: 3.0537759
+Epoch: 100, LR: 0.000010, Loss: 5.8714282, Val MSE: 9.6557692, Test MSE: 3.0571670
+Epoch: 110, LR: 0.000010, Loss: 5.7087754, Val MSE: 9.5820675, Test MSE: 3.2333433
+Epoch: 120, LR: 0.000010, Loss: 5.7182323, Val MSE: 9.0766835, Test MSE: 2.9107343
+Epoch: 130, LR: 0.000010, Loss: 5.1539236, Val MSE: 9.5503580, Test MSE: 2.9107343
+
+Early stopping triggered at epoch 130. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 8.23 mins. Best validation MSE: 9.0766835, corresponding test MSE: 2.9107343.
+num_layers:4, emb_dim:74, gnn_mae:1.072738, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=84, bias=True)
+  (convs): ModuleList(
+    (0-3): 4 x MPNNLayer(emb_dim=84, aggr=add)
+  )
+  (lin_pred): Linear(in_features=84, out_features=1, bias=True)
+)
+Total parameters: 179005
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 32.6394283, Val MSE: 36.4907320, Test MSE: 29.8988474
+Epoch: 020, LR: 0.000010, Loss: 17.6549622, Val MSE: 21.4829108, Test MSE: 14.2566920
+Epoch: 030, LR: 0.000010, Loss: 11.7167169, Val MSE: 14.0758195, Test MSE: 6.8968971
+Epoch: 040, LR: 0.000010, Loss: 8.9593775, Val MSE: 11.3942687, Test MSE: 4.9585706
+Epoch: 050, LR: 0.000010, Loss: 7.5740748, Val MSE: 9.6420896, Test MSE: 3.6538783
+Epoch: 060, LR: 0.000010, Loss: 6.9488127, Val MSE: 9.7767823, Test MSE: 3.4098295
+Epoch: 070, LR: 0.000010, Loss: 6.3542280, Val MSE: 9.0592164, Test MSE: 3.1680752
+Epoch: 080, LR: 0.000010, Loss: 6.3081330, Val MSE: 8.7309285, Test MSE: 3.0658580
+Epoch: 090, LR: 0.000010, Loss: 5.6643296, Val MSE: 8.6174773, Test MSE: 3.0496560
+Epoch: 100, LR: 0.000010, Loss: 5.5628588, Val MSE: 8.8045817, Test MSE: 3.0496560
+
+Early stopping triggered at epoch 100. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 6.36 mins. Best validation MSE: 8.6174773, corresponding test MSE: 3.0496560.
+num_layers:4, emb_dim:84, gnn_mae:1.0678979, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=94, bias=True)
+  (convs): ModuleList(
+    (0-3): 4 x MPNNLayer(emb_dim=94, aggr=add)
+  )
+  (lin_pred): Linear(in_features=94, out_features=1, bias=True)
+)
+Total parameters: 222875
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 30.2965055, Val MSE: 33.3846366, Test MSE: 27.2196386
+Epoch: 020, LR: 0.000010, Loss: 14.3612893, Val MSE: 17.7730672, Test MSE: 10.7909653
+Epoch: 030, LR: 0.000010, Loss: 9.7493962, Val MSE: 12.5619190, Test MSE: 6.0863129
+Epoch: 040, LR: 0.000010, Loss: 7.7434658, Val MSE: 10.5791306, Test MSE: 4.5054613
+Epoch: 050, LR: 0.000010, Loss: 7.0439890, Val MSE: 9.8236793, Test MSE: 3.5711526
+Epoch: 060, LR: 0.000010, Loss: 6.3939307, Val MSE: 9.9089759, Test MSE: 2.9460037
+
+Early stopping triggered at epoch 68. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 4.35 mins. Best validation MSE: 8.9378680, corresponding test MSE: 2.9460037.
+num_layers:4, emb_dim:94, gnn_mae:1.2843531, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=54, bias=True)
+  (convs): ModuleList(
+    (0-4): 5 x MPNNLayer(emb_dim=54, aggr=add)
+  )
+  (lin_pred): Linear(in_features=54, out_features=1, bias=True)
+)
+Total parameters: 94555
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 39.9163358, Val MSE: 44.2381741, Test MSE: 36.6371520
+Epoch: 020, LR: 0.000010, Loss: 25.5416869, Val MSE: 29.6610096, Test MSE: 22.1250681
+Epoch: 030, LR: 0.000010, Loss: 16.9697067, Val MSE: 19.1792164, Test MSE: 11.8732820
+Epoch: 040, LR: 0.000010, Loss: 12.0536182, Val MSE: 15.0140102, Test MSE: 8.1723681
+Epoch: 050, LR: 0.000010, Loss: 9.5532125, Val MSE: 12.1574476, Test MSE: 5.5722054
+Epoch: 060, LR: 0.000010, Loss: 8.5310784, Val MSE: 11.1452066, Test MSE: 4.6914191
+Epoch: 070, LR: 0.000010, Loss: 7.5990028, Val MSE: 10.2096787, Test MSE: 4.2008919
+Epoch: 080, LR: 0.000010, Loss: 7.1885912, Val MSE: 10.0461976, Test MSE: 3.6931664
+Epoch: 090, LR: 0.000010, Loss: 6.6878326, Val MSE: 9.8803016, Test MSE: 3.4177637
+Epoch: 100, LR: 0.000010, Loss: 6.3870679, Val MSE: 9.4321626, Test MSE: 3.3623711
+Epoch: 110, LR: 0.000010, Loss: 6.0980179, Val MSE: 9.2218967, Test MSE: 3.3407985
+Epoch: 120, LR: 0.000010, Loss: 6.5234210, Val MSE: 9.1420240, Test MSE: 3.0630886
+
+Early stopping triggered at epoch 129. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 9.14 mins. Best validation MSE: 8.8180777, corresponding test MSE: 3.0630886.
+num_layers:5, emb_dim:54, gnn_mae:1.1307771, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=64, bias=True)
+  (convs): ModuleList(
+    (0-4): 5 x MPNNLayer(emb_dim=64, aggr=add)
+  )
+  (lin_pred): Linear(in_features=64, out_features=1, bias=True)
+)
+Total parameters: 131265
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 38.9104602, Val MSE: 54.0516579, Test MSE: 37.8979839
+Epoch: 020, LR: 0.000010, Loss: 21.7287092, Val MSE: 24.2728741, Test MSE: 15.8919874
+Epoch: 030, LR: 0.000010, Loss: 14.1918122, Val MSE: 18.9786606, Test MSE: 11.2168189
+Epoch: 040, LR: 0.000010, Loss: 10.6083342, Val MSE: 13.9504201, Test MSE: 6.8519648
+Epoch: 050, LR: 0.000010, Loss: 8.9773688, Val MSE: 10.5752515, Test MSE: 4.7482904
+Epoch: 060, LR: 0.000010, Loss: 7.5872228, Val MSE: 10.4970267, Test MSE: 4.0931832
+Epoch: 070, LR: 0.000010, Loss: 7.4085464, Val MSE: 9.4500835, Test MSE: 3.6935246
+Epoch: 080, LR: 0.000010, Loss: 6.6322478, Val MSE: 9.2786355, Test MSE: 3.5188891
+Epoch: 090, LR: 0.000010, Loss: 6.3443448, Val MSE: 8.9166145, Test MSE: 3.1245236
+Epoch: 100, LR: 0.000010, Loss: 6.3599829, Val MSE: 8.8005541, Test MSE: 3.6070117
+
+Early stopping triggered at epoch 103. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 7.26 mins. Best validation MSE: 8.6271965, corresponding test MSE: 3.6070117.
+num_layers:5, emb_dim:64, gnn_mae:1.0556202, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=74, bias=True)
+  (convs): ModuleList(
+    (0-4): 5 x MPNNLayer(emb_dim=74, aggr=add)
+  )
+  (lin_pred): Linear(in_features=74, out_features=1, bias=True)
+)
+Total parameters: 173975
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 33.9332208, Val MSE: 37.1103408, Test MSE: 29.7872808
+Epoch: 020, LR: 0.000010, Loss: 17.6737724, Val MSE: 20.2317161, Test MSE: 13.1256018
+Epoch: 030, LR: 0.000010, Loss: 11.3009420, Val MSE: 14.3969617, Test MSE: 7.6262250
+Epoch: 040, LR: 0.000010, Loss: 9.0838930, Val MSE: 11.1738742, Test MSE: 4.8341127
+Epoch: 050, LR: 0.000010, Loss: 7.8227162, Val MSE: 10.2038500, Test MSE: 4.0633668
+Epoch: 060, LR: 0.000010, Loss: 7.0987211, Val MSE: 9.3823030, Test MSE: 3.5848980
+Epoch: 070, LR: 0.000010, Loss: 6.6460075, Val MSE: 9.2980820, Test MSE: 3.5663128
+Epoch: 080, LR: 0.000010, Loss: 6.4536121, Val MSE: 9.2011735, Test MSE: 3.5004209
+Epoch: 090, LR: 0.000010, Loss: 6.0053657, Val MSE: 9.5372301, Test MSE: 3.4936314
+Epoch: 100, LR: 0.000010, Loss: 5.6904891, Val MSE: 9.1133702, Test MSE: 3.6590040
+Epoch: 110, LR: 0.000010, Loss: 5.5381369, Val MSE: 9.1744260, Test MSE: 3.2363648
+Epoch: 120, LR: 0.000010, Loss: 5.3455518, Val MSE: 8.9799465, Test MSE: 3.3064244
+Epoch: 130, LR: 0.000010, Loss: 5.3134977, Val MSE: 8.7697861, Test MSE: 3.1413001
+Epoch: 140, LR: 0.000010, Loss: 4.8451846, Val MSE: 8.4192896, Test MSE: 3.1463898
+
+Early stopping triggered at epoch 142. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 10.01 mins. Best validation MSE: 8.3640837, corresponding test MSE: 3.1463898.
+num_layers:5, emb_dim:74, gnn_mae:1.0364335, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=84, bias=True)
+  (convs): ModuleList(
+    (0-4): 5 x MPNNLayer(emb_dim=84, aggr=add)
+  )
+  (lin_pred): Linear(in_features=84, out_features=1, bias=True)
+)
+Total parameters: 222685
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 32.3842242, Val MSE: 36.3746693, Test MSE: 29.2006408
+Epoch: 020, LR: 0.000010, Loss: 16.3827606, Val MSE: 20.0157572, Test MSE: 12.9078545
+Epoch: 030, LR: 0.000010, Loss: 10.8026357, Val MSE: 14.8728248, Test MSE: 6.8631846
+Epoch: 040, LR: 0.000010, Loss: 8.7039868, Val MSE: 12.8358113, Test MSE: 5.5584516
+Epoch: 050, LR: 0.000010, Loss: 7.5800602, Val MSE: 11.3834705, Test MSE: 4.5989463
+Epoch: 060, LR: 0.000010, Loss: 6.9242052, Val MSE: 11.6150551, Test MSE: 4.0098729
+Epoch: 070, LR: 0.000010, Loss: 6.3332841, Val MSE: 10.2062331, Test MSE: 4.0939001
+Epoch: 080, LR: 0.000010, Loss: 6.1808166, Val MSE: 9.2455055, Test MSE: 3.6935416
+Epoch: 090, LR: 0.000010, Loss: 6.0183186, Val MSE: 9.7080529, Test MSE: 3.3531079
+
+Early stopping triggered at epoch 93. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 6.57 mins. Best validation MSE: 9.2200940, corresponding test MSE: 3.3531079.
+num_layers:5, emb_dim:84, gnn_mae:1.261429, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=94, bias=True)
+  (convs): ModuleList(
+    (0-4): 5 x MPNNLayer(emb_dim=94, aggr=add)
+  )
+  (lin_pred): Linear(in_features=94, out_features=1, bias=True)
+)
+Total parameters: 277395
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 22.7308050, Val MSE: 25.8415219, Test MSE: 19.3082942
+Epoch: 020, LR: 0.000010, Loss: 11.2239534, Val MSE: 13.8243673, Test MSE: 7.3391819
+Epoch: 030, LR: 0.000010, Loss: 8.7527190, Val MSE: 10.9412400, Test MSE: 4.5104743
+Epoch: 040, LR: 0.000010, Loss: 7.3389911, Val MSE: 9.8603450, Test MSE: 3.6769262
+Epoch: 050, LR: 0.000010, Loss: 6.6596397, Val MSE: 9.8255377, Test MSE: 3.6380574
+Epoch: 060, LR: 0.000010, Loss: 6.0960528, Val MSE: 9.2499732, Test MSE: 3.4014944
+Epoch: 070, LR: 0.000010, Loss: 5.9321232, Val MSE: 8.4662348, Test MSE: 3.0389120
+Epoch: 080, LR: 0.000010, Loss: 5.4932658, Val MSE: 9.1689863, Test MSE: 3.0389120
+
+Early stopping triggered at epoch 80. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 5.63 mins. Best validation MSE: 8.4662348, corresponding test MSE: 3.0389120.
+num_layers:5, emb_dim:94, gnn_mae:1.1452075, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=54, bias=True)
+  (convs): ModuleList(
+    (0-5): 6 x MPNNLayer(emb_dim=54, aggr=add)
+  )
+  (lin_pred): Linear(in_features=54, out_features=1, bias=True)
+)
+Total parameters: 112915
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 30.9877076, Val MSE: 49.4593838, Test MSE: 38.2026449
+
+Early stopping triggered at epoch 11. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 0.90 mins. Best validation MSE: 47.9379857, corresponding test MSE: 38.2026449.
+num_layers:6, emb_dim:54, gnn_mae:4.633828, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=64, bias=True)
+  (convs): ModuleList(
+    (0-5): 6 x MPNNLayer(emb_dim=64, aggr=add)
+  )
+  (lin_pred): Linear(in_features=64, out_features=1, bias=True)
+)
+Total parameters: 156865
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 42.6138811, Val MSE: 54.0708570, Test MSE: 43.5406540
+Epoch: 020, LR: 0.000010, Loss: 25.3664754, Val MSE: 32.3380055, Test MSE: 22.4096671
+Epoch: 030, LR: 0.000010, Loss: 15.3651940, Val MSE: 21.3353633, Test MSE: 12.3081917
+Epoch: 040, LR: 0.000010, Loss: 11.2948631, Val MSE: 15.8208537, Test MSE: 7.1399795
+Epoch: 050, LR: 0.000010, Loss: 8.9356823, Val MSE: 11.5236212, Test MSE: 5.1282541
+Epoch: 060, LR: 0.000010, Loss: 8.1771930, Val MSE: 10.6371626, Test MSE: 4.3119744
+Epoch: 070, LR: 0.000010, Loss: 7.4238576, Val MSE: 10.3156943, Test MSE: 3.9266745
+Epoch: 080, LR: 0.000010, Loss: 6.7236370, Val MSE: 9.6986371, Test MSE: 3.5960553
+Epoch: 090, LR: 0.000010, Loss: 6.4509319, Val MSE: 9.7034882, Test MSE: 3.2325767
+Epoch: 100, LR: 0.000010, Loss: 6.3088405, Val MSE: 9.6127814, Test MSE: 3.1343197
+
+Early stopping triggered at epoch 106. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 8.60 mins. Best validation MSE: 9.1423607, corresponding test MSE: 3.1343197.
+num_layers:6, emb_dim:64, gnn_mae:1.0765204, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=74, bias=True)
+  (convs): ModuleList(
+    (0-5): 6 x MPNNLayer(emb_dim=74, aggr=add)
+  )
+  (lin_pred): Linear(in_features=74, out_features=1, bias=True)
+)
+Total parameters: 208015
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 26.6276942, Val MSE: 31.1058389, Test MSE: 24.5979951
+Epoch: 020, LR: 0.000010, Loss: 13.7015730, Val MSE: 17.4660641, Test MSE: 10.7590316
+Epoch: 030, LR: 0.000010, Loss: 9.4791956, Val MSE: 12.1112301, Test MSE: 6.4423472
+Epoch: 040, LR: 0.000010, Loss: 8.2829051, Val MSE: 11.3691717, Test MSE: 5.5064384
+Epoch: 050, LR: 0.000010, Loss: 7.7344158, Val MSE: 10.1390895, Test MSE: 4.6151561
+Epoch: 060, LR: 0.000010, Loss: 6.8805660, Val MSE: 9.8512620, Test MSE: 4.3284063
+Epoch: 070, LR: 0.000010, Loss: 6.7795207, Val MSE: 10.2642335, Test MSE: 4.4009693
+Epoch: 080, LR: 0.000010, Loss: 6.2357526, Val MSE: 9.6915327, Test MSE: 4.4089137
+
+Early stopping triggered at epoch 86. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 7.00 mins. Best validation MSE: 9.6328779, corresponding test MSE: 4.4089137.
+num_layers:6, emb_dim:74, gnn_mae:1.3432521, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=84, bias=True)
+  (convs): ModuleList(
+    (0-5): 6 x MPNNLayer(emb_dim=84, aggr=add)
+  )
+  (lin_pred): Linear(in_features=84, out_features=1, bias=True)
+)
+Total parameters: 266365
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 23.7453143, Val MSE: 27.1830158, Test MSE: 18.8374707
+Epoch: 020, LR: 0.000010, Loss: 12.3365548, Val MSE: 16.9751880, Test MSE: 6.9960836
+Epoch: 030, LR: 0.000010, Loss: 9.2052162, Val MSE: 17.5513266, Test MSE: 5.7474242
+Epoch: 040, LR: 0.000010, Loss: 8.0979058, Val MSE: 12.0483157, Test MSE: 4.0353403
+Epoch: 050, LR: 0.000010, Loss: 7.1921808, Val MSE: 13.6417170, Test MSE: 4.2501159
+
+Early stopping triggered at epoch 52. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 4.29 mins. Best validation MSE: 11.9691610, corresponding test MSE: 4.2501159.
+num_layers:6, emb_dim:84, gnn_mae:1.2381157, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=94, bias=True)
+  (convs): ModuleList(
+    (0-5): 6 x MPNNLayer(emb_dim=94, aggr=add)
+  )
+  (lin_pred): Linear(in_features=94, out_features=1, bias=True)
+)
+Total parameters: 331915
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 20.9968042, Val MSE: 28.6241401, Test MSE: 20.2174236
+Epoch: 020, LR: 0.000010, Loss: 10.4756217, Val MSE: 13.6220891, Test MSE: 6.4044726
+Epoch: 030, LR: 0.000010, Loss: 8.8504714, Val MSE: 11.4839499, Test MSE: 4.2124944
+Epoch: 040, LR: 0.000010, Loss: 7.4228188, Val MSE: 10.7256497, Test MSE: 3.6036516
+Epoch: 050, LR: 0.000010, Loss: 6.6800014, Val MSE: 9.6513581, Test MSE: 3.2213202
+Epoch: 060, LR: 0.000010, Loss: 6.3919782, Val MSE: 9.3248498, Test MSE: 3.1414066
+Epoch: 070, LR: 0.000010, Loss: 5.9564734, Val MSE: 8.9980060, Test MSE: 2.8594089
+Epoch: 080, LR: 0.000010, Loss: 5.7202249, Val MSE: 8.9301794, Test MSE: 2.9708982
+
+Early stopping triggered at epoch 88. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 7.19 mins. Best validation MSE: 8.7348321, corresponding test MSE: 2.9708982.
+num_layers:6, emb_dim:94, gnn_mae:0.9571772, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=54, bias=True)
+  (convs): ModuleList(
+    (0-6): 7 x MPNNLayer(emb_dim=54, aggr=add)
+  )
+  (lin_pred): Linear(in_features=54, out_features=1, bias=True)
+)
+Total parameters: 131275
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 34.2182957, Val MSE: 39.0792967, Test MSE: 31.3853605
+Epoch: 020, LR: 0.000010, Loss: 18.3673574, Val MSE: 22.2300332, Test MSE: 14.4657740
+Epoch: 030, LR: 0.000010, Loss: 12.6503990, Val MSE: 15.0560488, Test MSE: 8.3504721
+Epoch: 040, LR: 0.000010, Loss: 9.7132077, Val MSE: 12.2437649, Test MSE: 5.9947688
+Epoch: 050, LR: 0.000010, Loss: 8.7952047, Val MSE: 10.8569205, Test MSE: 4.7762319
+Epoch: 060, LR: 0.000010, Loss: 7.7673415, Val MSE: 10.6813865, Test MSE: 4.1395076
+Epoch: 070, LR: 0.000010, Loss: 7.1060391, Val MSE: 9.8542765, Test MSE: 3.6941653
+Epoch: 080, LR: 0.000010, Loss: 6.9542652, Val MSE: 9.7837255, Test MSE: 3.5053081
+Epoch: 090, LR: 0.000010, Loss: 6.8543578, Val MSE: 9.3920054, Test MSE: 3.3634462
+
+Early stopping triggered at epoch 95. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 8.21 mins. Best validation MSE: 9.1170236, corresponding test MSE: 3.3634462.
+num_layers:7, emb_dim:54, gnn_mae:1.2148083, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=64, bias=True)
+  (convs): ModuleList(
+    (0-6): 7 x MPNNLayer(emb_dim=64, aggr=add)
+  )
+  (lin_pred): Linear(in_features=64, out_features=1, bias=True)
+)
+Total parameters: 182465
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 32.2216635, Val MSE: 36.3220976, Test MSE: 28.9261547
+Epoch: 020, LR: 0.000010, Loss: 18.3254326, Val MSE: 24.5358523, Test MSE: 13.9694279
+Epoch: 030, LR: 0.000010, Loss: 12.2356359, Val MSE: 19.7755126, Test MSE: 10.2845513
+Epoch: 040, LR: 0.000010, Loss: 9.5486162, Val MSE: 16.0717992, Test MSE: 5.9578709
+
+Early stopping triggered at epoch 45. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 3.89 mins. Best validation MSE: 13.5935403, corresponding test MSE: 5.9578709.
+num_layers:7, emb_dim:64, gnn_mae:1.4578441, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=74, bias=True)
+  (convs): ModuleList(
+    (0-6): 7 x MPNNLayer(emb_dim=74, aggr=add)
+  )
+  (lin_pred): Linear(in_features=74, out_features=1, bias=True)
+)
+Total parameters: 242055
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 27.0874723, Val MSE: 32.3325513, Test MSE: 23.8896236
+Epoch: 020, LR: 0.000010, Loss: 13.1016323, Val MSE: 26.2027678, Test MSE: 10.6238717
+Epoch: 030, LR: 0.000010, Loss: 9.6387001, Val MSE: 23.2369121, Test MSE: 7.0489445
+
+Early stopping triggered at epoch 36. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 3.12 mins. Best validation MSE: 16.8098121, corresponding test MSE: 7.0489445.
+num_layers:7, emb_dim:74, gnn_mae:1.6174263, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=84, bias=True)
+  (convs): ModuleList(
+    (0-6): 7 x MPNNLayer(emb_dim=84, aggr=add)
+  )
+  (lin_pred): Linear(in_features=84, out_features=1, bias=True)
+)
+Total parameters: 310045
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 21.2905782, Val MSE: 29.1387165, Test MSE: 19.3574571
+Epoch: 020, LR: 0.000010, Loss: 11.0082591, Val MSE: 21.5468798, Test MSE: 9.4134329
+Epoch: 030, LR: 0.000010, Loss: 9.2859217, Val MSE: 17.2840709, Test MSE: 6.5480510
+
+Early stopping triggered at epoch 37. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 3.18 mins. Best validation MSE: 12.1554453, corresponding test MSE: 6.5480510.
+num_layers:7, emb_dim:84, gnn_mae:1.4502678, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=94, bias=True)
+  (convs): ModuleList(
+    (0-6): 7 x MPNNLayer(emb_dim=94, aggr=add)
+  )
+  (lin_pred): Linear(in_features=94, out_features=1, bias=True)
+)
+Total parameters: 386435
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 21.9840364, Val MSE: 24.0132480, Test MSE: 17.9197012
+Epoch: 020, LR: 0.000010, Loss: 10.5905155, Val MSE: 13.6388779, Test MSE: 6.3405649
+Epoch: 030, LR: 0.000010, Loss: 8.3003086, Val MSE: 12.6060141, Test MSE: 4.7753106
+Epoch: 040, LR: 0.000010, Loss: 7.2443513, Val MSE: 12.0459814, Test MSE: 3.9917742
+Epoch: 050, LR: 0.000010, Loss: 6.8668117, Val MSE: 12.5932708, Test MSE: 3.6743146
+Epoch: 060, LR: 0.000010, Loss: 6.3935750, Val MSE: 10.9676733, Test MSE: 3.4142392
+
+Early stopping triggered at epoch 64. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 5.52 mins. Best validation MSE: 9.6613519, corresponding test MSE: 3.4142392.
+num_layers:7, emb_dim:94, gnn_mae:1.1078799, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=54, bias=True)
+  (convs): ModuleList(
+    (0-7): 8 x MPNNLayer(emb_dim=54, aggr=add)
+  )
+  (lin_pred): Linear(in_features=54, out_features=1, bias=True)
+)
+Total parameters: 149635
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 29.5516653, Val MSE: 32.5504344, Test MSE: 26.8227682
+Epoch: 020, LR: 0.000010, Loss: 15.8150979, Val MSE: 20.2242390, Test MSE: 13.2496968
+Epoch: 030, LR: 0.000010, Loss: 11.1169700, Val MSE: 13.3519864, Test MSE: 7.3934654
+Epoch: 040, LR: 0.000010, Loss: 9.2212205, Val MSE: 12.9170313, Test MSE: 5.8864380
+Epoch: 050, LR: 0.000010, Loss: 8.2954852, Val MSE: 11.9887988, Test MSE: 5.4857940
+Epoch: 060, LR: 0.000010, Loss: 7.8665904, Val MSE: 12.9713583, Test MSE: 4.5223895
+Epoch: 070, LR: 0.000010, Loss: 7.1505780, Val MSE: 11.6179280, Test MSE: 4.8093216
+
+Early stopping triggered at epoch 78. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 6.94 mins. Best validation MSE: 11.0964266, corresponding test MSE: 4.8093216.
+num_layers:8, emb_dim:54, gnn_mae:1.2728434, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=64, bias=True)
+  (convs): ModuleList(
+    (0-7): 8 x MPNNLayer(emb_dim=64, aggr=add)
+  )
+  (lin_pred): Linear(in_features=64, out_features=1, bias=True)
+)
+Total parameters: 208065
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 24.0873249, Val MSE: 29.3197870, Test MSE: 21.9569871
+Epoch: 020, LR: 0.000010, Loss: 12.3194683, Val MSE: 17.3280069, Test MSE: 8.2602409
+Epoch: 030, LR: 0.000010, Loss: 10.0339725, Val MSE: 19.0688522, Test MSE: 6.1377656
+Epoch: 040, LR: 0.000010, Loss: 8.9879493, Val MSE: 15.4570750, Test MSE: 4.8748266
+Epoch: 050, LR: 0.000010, Loss: 8.3671616, Val MSE: 15.6249174, Test MSE: 5.1353834
+Epoch: 060, LR: 0.000010, Loss: 7.5131735, Val MSE: 12.1444116, Test MSE: 4.2435870
+Epoch: 070, LR: 0.000010, Loss: 7.2505762, Val MSE: 12.6680592, Test MSE: 3.9161956
+Epoch: 080, LR: 0.000010, Loss: 7.0022947, Val MSE: 9.9835821, Test MSE: 3.8648485
+Epoch: 090, LR: 0.000010, Loss: 6.3781927, Val MSE: 10.8920071, Test MSE: 3.7442048
+Epoch: 100, LR: 0.000010, Loss: 6.1148940, Val MSE: 9.5958911, Test MSE: 3.7929843
+Epoch: 110, LR: 0.000010, Loss: 6.2456494, Val MSE: 10.6238451, Test MSE: 3.5777704
+Epoch: 120, LR: 0.000010, Loss: 5.6408123, Val MSE: 11.2000438, Test MSE: 3.4899158
+
+Early stopping triggered at epoch 125. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 11.03 mins. Best validation MSE: 9.4361311, corresponding test MSE: 3.4899158.
+num_layers:8, emb_dim:64, gnn_mae:1.103115, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=74, bias=True)
+  (convs): ModuleList(
+    (0-7): 8 x MPNNLayer(emb_dim=74, aggr=add)
+  )
+  (lin_pred): Linear(in_features=74, out_features=1, bias=True)
+)
+Total parameters: 276095
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 27.3093792, Val MSE: 29.8654012, Test MSE: 22.5734732
+Epoch: 020, LR: 0.000010, Loss: 13.4435530, Val MSE: 20.4509333, Test MSE: 9.6267187
+Epoch: 030, LR: 0.000010, Loss: 9.9860054, Val MSE: 13.2741255, Test MSE: 5.5788344
+Epoch: 040, LR: 0.000010, Loss: 8.6447309, Val MSE: 12.2930414, Test MSE: 4.4783714
+Epoch: 050, LR: 0.000010, Loss: 7.7303084, Val MSE: 15.1495991, Test MSE: 4.1868800
+Epoch: 060, LR: 0.000010, Loss: 7.2628749, Val MSE: 10.8254498, Test MSE: 3.7075504
+Epoch: 070, LR: 0.000010, Loss: 6.8737031, Val MSE: 10.1656576, Test MSE: 3.3997760
+Epoch: 080, LR: 0.000010, Loss: 6.4122921, Val MSE: 10.4131037, Test MSE: 3.2208726
+Epoch: 090, LR: 0.000010, Loss: 6.3338227, Val MSE: 10.9703731, Test MSE: 3.2709922
+Epoch: 100, LR: 0.000010, Loss: 6.0103142, Val MSE: 9.9291062, Test MSE: 3.1600824
+Epoch: 110, LR: 0.000010, Loss: 5.8195520, Val MSE: 10.2044631, Test MSE: 3.0111430
+Epoch: 120, LR: 0.000010, Loss: 5.6757755, Val MSE: 11.2229116, Test MSE: 2.9422299
+
+Early stopping triggered at epoch 122. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 10.78 mins. Best validation MSE: 9.4004765, corresponding test MSE: 2.9422299.
+num_layers:8, emb_dim:74, gnn_mae:1.0154667, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=84, bias=True)
+  (convs): ModuleList(
+    (0-7): 8 x MPNNLayer(emb_dim=84, aggr=add)
+  )
+  (lin_pred): Linear(in_features=84, out_features=1, bias=True)
+)
+Total parameters: 353725
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 22.9778602, Val MSE: 33.9034247, Test MSE: 21.6685618
+Epoch: 020, LR: 0.000010, Loss: 11.7794559, Val MSE: 15.4148010, Test MSE: 7.3184293
+Epoch: 030, LR: 0.000010, Loss: 9.2152023, Val MSE: 11.3307240, Test MSE: 5.0716957
+Epoch: 040, LR: 0.000010, Loss: 7.7805274, Val MSE: 10.2764914, Test MSE: 4.3106857
+Epoch: 050, LR: 0.000010, Loss: 6.9938064, Val MSE: 10.1405164, Test MSE: 3.7587006
+Epoch: 060, LR: 0.000010, Loss: 6.7308783, Val MSE: 10.0024482, Test MSE: 3.5583103
+
+Early stopping triggered at epoch 68. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 6.02 mins. Best validation MSE: 9.4442347, corresponding test MSE: 3.5583103.
+num_layers:8, emb_dim:84, gnn_mae:1.1126777, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=94, bias=True)
+  (convs): ModuleList(
+    (0-7): 8 x MPNNLayer(emb_dim=94, aggr=add)
+  )
+  (lin_pred): Linear(in_features=94, out_features=1, bias=True)
+)
+Total parameters: 440955
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 19.0450260, Val MSE: 26.3602377, Test MSE: 17.3987291
+Epoch: 020, LR: 0.000010, Loss: 10.6054864, Val MSE: 13.3426978, Test MSE: 6.0982240
+Epoch: 030, LR: 0.000010, Loss: 8.3815942, Val MSE: 11.5055865, Test MSE: 4.9279591
+Epoch: 040, LR: 0.000010, Loss: 7.4003240, Val MSE: 14.3196613, Test MSE: 4.1108863
+Epoch: 050, LR: 0.000010, Loss: 7.2905063, Val MSE: 14.9478062, Test MSE: 3.7447158
+
+Early stopping triggered at epoch 55. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 4.91 mins. Best validation MSE: 10.4516586, corresponding test MSE: 3.7447158.
+num_layers:8, emb_dim:94, gnn_mae:1.2187958, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=54, bias=True)
+  (convs): ModuleList(
+    (0-8): 9 x MPNNLayer(emb_dim=54, aggr=add)
+  )
+  (lin_pred): Linear(in_features=54, out_features=1, bias=True)
+)
+Total parameters: 167995
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 33.5243138, Val MSE: 37.0462058, Test MSE: 31.0654543
+Epoch: 020, LR: 0.000010, Loss: 18.4075874, Val MSE: 22.2891811, Test MSE: 14.9530766
+Epoch: 030, LR: 0.000010, Loss: 12.0974210, Val MSE: 17.2231518, Test MSE: 8.7210147
+Epoch: 040, LR: 0.000010, Loss: 9.8035271, Val MSE: 17.5134428, Test MSE: 5.5190035
+Epoch: 050, LR: 0.000010, Loss: 8.9392915, Val MSE: 13.0600661, Test MSE: 5.7587002
+
+Early stopping triggered at epoch 54. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 5.28 mins. Best validation MSE: 12.3293321, corresponding test MSE: 5.7587002.
+num_layers:9, emb_dim:54, gnn_mae:1.4887427, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=64, bias=True)
+  (convs): ModuleList(
+    (0-8): 9 x MPNNLayer(emb_dim=64, aggr=add)
+  )
+  (lin_pred): Linear(in_features=64, out_features=1, bias=True)
+)
+Total parameters: 233665
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 29.1241974, Val MSE: 33.7782638, Test MSE: 25.9102659
+Epoch: 020, LR: 0.000010, Loss: 14.1991846, Val MSE: 82.2882145, Test MSE: 25.9102659
+
+Early stopping triggered at epoch 20. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 1.95 mins. Best validation MSE: 33.7782638, corresponding test MSE: 25.9102659.
+num_layers:9, emb_dim:64, gnn_mae:2.4295886, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=74, bias=True)
+  (convs): ModuleList(
+    (0-8): 9 x MPNNLayer(emb_dim=74, aggr=add)
+  )
+  (lin_pred): Linear(in_features=74, out_features=1, bias=True)
+)
+Total parameters: 310135
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 29.6963848, Val MSE: 38.1213664, Test MSE: 28.5718321
+Epoch: 020, LR: 0.000010, Loss: 14.7084730, Val MSE: 16.5398493, Test MSE: 8.9835421
+Epoch: 030, LR: 0.000010, Loss: 10.0054379, Val MSE: 12.2883053, Test MSE: 5.9889421
+Epoch: 040, LR: 0.000010, Loss: 8.6285271, Val MSE: 10.9266924, Test MSE: 4.7566073
+Epoch: 050, LR: 0.000010, Loss: 7.5233672, Val MSE: 11.5712808, Test MSE: 4.4786139
+
+Early stopping triggered at epoch 55. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 5.42 mins. Best validation MSE: 9.8610143, corresponding test MSE: 4.4786139.
+num_layers:9, emb_dim:74, gnn_mae:1.2940423, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=84, bias=True)
+  (convs): ModuleList(
+    (0-8): 9 x MPNNLayer(emb_dim=84, aggr=add)
+  )
+  (lin_pred): Linear(in_features=84, out_features=1, bias=True)
+)
+Total parameters: 397405
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 26.8029432, Val MSE: 35.0801123, Test MSE: 23.0922258
+Epoch: 020, LR: 0.000010, Loss: 12.4458794, Val MSE: 24.3502533, Test MSE: 8.7828444
+
+Early stopping triggered at epoch 29. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 2.85 mins. Best validation MSE: 17.1453030, corresponding test MSE: 8.7828444.
+num_layers:9, emb_dim:84, gnn_mae:1.6881065, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=94, bias=True)
+  (convs): ModuleList(
+    (0-8): 9 x MPNNLayer(emb_dim=94, aggr=add)
+  )
+  (lin_pred): Linear(in_features=94, out_features=1, bias=True)
+)
+Total parameters: 495475
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 17.0247299, Val MSE: 21.8096711, Test MSE: 13.3116951
+Epoch: 020, LR: 0.000010, Loss: 9.9804116, Val MSE: 14.3705265, Test MSE: 6.3965403
+Epoch: 030, LR: 0.000010, Loss: 8.6229210, Val MSE: 13.5739230, Test MSE: 5.3567708
+Epoch: 040, LR: 0.000010, Loss: 7.8068976, Val MSE: 11.5306714, Test MSE: 4.7363944
+Epoch: 050, LR: 0.000010, Loss: 6.9580052, Val MSE: 40.1465455, Test MSE: 3.8836087
+
+Early stopping triggered at epoch 54. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 5.26 mins. Best validation MSE: 11.1160899, corresponding test MSE: 3.8836087.
+num_layers:9, emb_dim:94, gnn_mae:1.1498153, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=54, bias=True)
+  (convs): ModuleList(
+    (0-9): 10 x MPNNLayer(emb_dim=54, aggr=add)
+  )
+  (lin_pred): Linear(in_features=54, out_features=1, bias=True)
+)
+Total parameters: 186355
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 32.0304024, Val MSE: 43.2634621, Test MSE: 31.2768640
+Epoch: 020, LR: 0.000010, Loss: 18.4622013, Val MSE: 22.3870564, Test MSE: 14.1906449
+Epoch: 030, LR: 0.000010, Loss: 12.5267597, Val MSE: 37.6846538, Test MSE: 13.2554834
+
+Early stopping triggered at epoch 31. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 3.14 mins. Best validation MSE: 19.9774478, corresponding test MSE: 13.2554834.
+num_layers:10, emb_dim:54, gnn_mae:2.1747406, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=64, bias=True)
+  (convs): ModuleList(
+    (0-9): 10 x MPNNLayer(emb_dim=64, aggr=add)
+  )
+  (lin_pred): Linear(in_features=64, out_features=1, bias=True)
+)
+Total parameters: 259265
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 42.8618008, Val MSE: 50.1519251, Test MSE: 41.6267600
+Epoch: 020, LR: 0.000010, Loss: 20.9038233, Val MSE: 24.2864416, Test MSE: 17.0701138
+Epoch: 030, LR: 0.000010, Loss: 12.2970495, Val MSE: 17.7903959, Test MSE: 7.9346325
+Epoch: 040, LR: 0.000010, Loss: 9.6999247, Val MSE: 20.0256139, Test MSE: 5.6068950
+Epoch: 050, LR: 0.000010, Loss: 8.7933202, Val MSE: 12.1913741, Test MSE: 4.5773111
+Epoch: 060, LR: 0.000010, Loss: 7.9531665, Val MSE: 11.8918681, Test MSE: 4.4768658
+
+Early stopping triggered at epoch 68. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 6.86 mins. Best validation MSE: 10.9320103, corresponding test MSE: 4.4768658.
+num_layers:10, emb_dim:64, gnn_mae:1.2001743, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=74, bias=True)
+  (convs): ModuleList(
+    (0-9): 10 x MPNNLayer(emb_dim=74, aggr=add)
+  )
+  (lin_pred): Linear(in_features=74, out_features=1, bias=True)
+)
+Total parameters: 344175
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 22.5503799, Val MSE: 130.3874755, Test MSE: 25.3436919
+Epoch: 020, LR: 0.000010, Loss: 11.6733493, Val MSE: 34.0121236, Test MSE: 9.5365220
+Epoch: 030, LR: 0.000010, Loss: 9.1259139, Val MSE: 26.6523317, Test MSE: 7.9647301
+
+Early stopping triggered at epoch 31. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 3.11 mins. Best validation MSE: 20.3800700, corresponding test MSE: 7.9647301.
+num_layers:10, emb_dim:74, gnn_mae:1.6641791, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=84, bias=True)
+  (convs): ModuleList(
+    (0-9): 10 x MPNNLayer(emb_dim=84, aggr=add)
+  )
+  (lin_pred): Linear(in_features=84, out_features=1, bias=True)
+)
+Total parameters: 441085
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 21.4309297, Val MSE: 27.0351774, Test MSE: 17.1735365
+Epoch: 020, LR: 0.000010, Loss: 10.4154986, Val MSE: 20.8323418, Test MSE: 6.1481379
+Epoch: 030, LR: 0.000010, Loss: 8.3962638, Val MSE: 33.9268814, Test MSE: 4.5704258
+Epoch: 040, LR: 0.000010, Loss: 7.6500989, Val MSE: 27.3590626, Test MSE: 4.3806778
+
+Early stopping triggered at epoch 42. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 4.25 mins. Best validation MSE: 11.4621196, corresponding test MSE: 4.3806778.
+num_layers:10, emb_dim:84, gnn_mae:1.1859446, lookup_mae:6.1903048
+Running experiment for MPNNModel, training on 3108 samples for 200 epochs.
+
+Model architecture:
+MPNNModel(
+  (lin_in): Linear(in_features=49, out_features=94, bias=True)
+  (convs): ModuleList(
+    (0-9): 10 x MPNNLayer(emb_dim=94, aggr=add)
+  )
+  (lin_pred): Linear(in_features=94, out_features=1, bias=True)
+)
+Total parameters: 549995
+
+Start training:
+Epoch: 010, LR: 0.000010, Loss: 16.5898517, Val MSE: 67.9162213, Test MSE: 26.7798865
+Epoch: 020, LR: 0.000010, Loss: 10.0047465, Val MSE: 64.9022659, Test MSE: 8.4189305
+Epoch: 030, LR: 0.000010, Loss: 8.5398083, Val MSE: 128.4398448, Test MSE: 6.1224191
+
+Early stopping triggered at epoch 33. No improvement in validation MSE for 10 consecutive epochs.
+
+Done! Training took 3.31 mins. Best validation MSE: 16.0447301, corresponding test MSE: 6.1224191.
+num_layers:10, emb_dim:94, gnn_mae:1.4956023, lookup_mae:6.1903048
