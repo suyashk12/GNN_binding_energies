@@ -50,7 +50,6 @@ bond_dict = {'SINGLE':1, 'DOUBLE':2, 'TRIPLE':3, 'NONE':0}
 model_file = 'model.pth'
 result_file = 'results.csv'
 
-
 # Part 1 - create duplicate graphs per atom/orbital
 def load_data_from_file(filename):
     with open(filename, "r") as file_handle:
@@ -97,9 +96,6 @@ def create_duplicates(input_file, output_file):
         for n_i in target_node_indices:  # For each target node
             graph_i = graph.copy()
 
-            # Print orbitals for inspection before filtering
-            #print(f"Processing molecule {mol}: Node {n_i} orbitals before filtering: {graph_i.nodes[n_i]['orbitals']}")
-
             # Add 'NONE' bonds to all non-neighboring nodes of the target node
             for nb_i in nx.non_neighbors(graph_i, n_i):
                 graph_i.add_edge(n_i, nb_i, bond_type='NONE')  # Add edge to target node
@@ -110,9 +106,6 @@ def create_duplicates(input_file, output_file):
 
                 # No skipping based on orbital value now
                 graph_ij.nodes[n_i]['orbitals'] = [graph_ij.nodes[n_i]['orbitals'][j]]
-
-                # Print orbitals after filtering for comparison
-                #print(f"Processing molecule {mol}: Node {n_i} orbitals after filtering: {graph_ij.nodes[n_i]['orbitals']}")
 
                 # Mark the target node and other nodes
                 graph_ij.nodes[n_i]['target'] = True
@@ -129,9 +122,6 @@ def create_duplicates(input_file, output_file):
         # Add the generated graphs and names to the overall lists
         training_graphs.extend(all_graphs)
         training_graph_names.extend(all_names)
-
-        # Print how many duplicates were created for this graph
-        #print(f"Graph {i} for molecule {mol} created {count} duplicates.")
 
     # Write the duplicates to a new JSON file
     training_data_dict = dict(zip(training_graph_names, training_graphs))
@@ -211,6 +201,44 @@ model.eval()  # Make sure the model is in evaluation mode
 # Prepare a list for results
 results = []
 
+def safe_lookup_energy(atom, orbital, atom_dict, lookup_df):
+
+    Z = atom_dict.get(atom, None)
+    if Z is None:
+        Z = 1  # Default to Hydrogen if completely unknown
+    
+    # Check if Z is within bounds
+    if Z < 1:
+        Z = 1
+    if Z > len(lookup_df):
+        Z = len(lookup_df)
+
+    row = lookup_df.iloc[Z-1]
+
+    if orbital in row and not pd.isna(row[orbital]):
+        return float(row[orbital])
+    
+    # Orbital is missing: find nearest s-orbital in same shell
+    # Example: 3p -> 3s if missing
+    shell_number = None
+    for c in orbital:
+        if c.isdigit():
+            if shell_number is None:
+                shell_number = int(c)
+            else:
+                shell_number = shell_number * 10 + int(c)
+        else:
+            break
+
+    fallback_orbital = f"{shell_number}s" if shell_number is not None else "1s"
+
+    if fallback_orbital in row and not pd.isna(row[fallback_orbital]):
+        return float(row[fallback_orbital])
+    else:
+        # Final fallback if even that fails
+        print(f"Warning: Both {orbital} and fallback {fallback_orbital} missing for {atom}. Setting energy to 0.")
+        return 0.0
+
 # Iterate through each graph in the dataset
 for mol_name, graph in graph_data.items():
     
@@ -237,14 +265,20 @@ for mol_name, graph in graph_data.items():
     charge = list(nx.get_node_attributes(graph, "formal_charge").values())
     x[:, 1] = charge
     
-    atom_embeds = np.array([embed_dict[a] for a in atoms])
+    atom_embeds = np.array([
+        embed_dict[a] if a in embed_dict else np.zeros(30) # Safeguard against atoms without embeddings
+        for a in atoms
+    ])    
+
     x[:, 2:32] = atom_embeds
-    x[target_atom_idx, 32 + orb_list.index(target_orbital)] = 1  # orbital one-hot encoding for target
+
+    if target_orbital in orb_list: # Safeguard against new orbitals
+        x[target_atom_idx, 32 + orb_list.index(target_orbital)] = 1 # orbital one-hot encoding for target
     
     x = torch.tensor(x, dtype=torch.float)
     
     # Index is Z-1 for lookup table
-    energy = float(lookup_df.loc[atom_dict[atoms[target_atom_idx]]-1, target_orbital])
+    energy = safe_lookup_energy(atoms[target_atom_idx], target_orbital, atom_dict, lookup_df)
     
     edges = list(graph.edges)
 
