@@ -1,7 +1,55 @@
+# Imports
 import json
 import networkx as nx
 import copy
-import os
+import numpy as np
+import torch
+import torch.nn.functional as F
+from torch.nn import Linear, ReLU, BatchNorm1d, Module, Sequential
+from torch_geometric.data import Data
+from torch_geometric.nn import MessagePassing, global_mean_pool
+from torch_scatter import scatter
+import pandas as pd
+
+# File loads
+input_file = 'graph_data.json' # Input for making predictions
+duplicate_file = 'graph_data_duplicates.json' # File storing split copies of input graphs
+
+# Supplemental data for making predictions - embeddings, lookup table, orbitals, and bonds
+embedding_df = pd.read_csv("embeddings.csv")
+lookup_df = pd.read_csv("lookup.csv")
+embedded_atoms = list(embedding_df['Atoms'])
+embed_dict = {}
+for i in range(len(embedding_df)):
+    vec = np.fromstring(embedding_df.loc[i,'Embeddings'].replace('\n','').strip('[]'), sep=' ')
+    embed_dict[embedded_atoms[i]] = vec        
+embed_dict['H'] = np.zeros(30)
+atom_dict = {row['Element']: row['Z'] for _, row in lookup_df.iterrows()}
+
+orb_list = ['1s',
+         '2s',
+         '2p',
+         '2p3/2',
+         '3s',
+         '3p',
+         '3p3/2',
+         '3d',
+         '3d5/2',
+         '4s',
+         '4p3/2',
+         '4d',
+         '4d5/2',
+         '4f7/2',
+         '5s',
+         '5p3/2',
+         '5d5/2']
+
+bond_dict = {'SINGLE':1, 'DOUBLE':2, 'TRIPLE':3, 'NONE':0}
+
+# Model file and result names
+model_file = 'model.pth'
+result_file = 'results.csv'
+
 
 # Part 1 - create duplicate graphs per atom/orbital
 def load_data_from_file(filename):
@@ -89,36 +137,9 @@ def create_duplicates(input_file, output_file):
     training_data_dict = dict(zip(training_graph_names, training_graphs))
     write_data_to_json_file(training_data_dict, output_file, indent=2)
 
-create_duplicates('graph_data.json', 'graph_data_duplicates.json')
+create_duplicates(input_file, duplicate_file)
 
 # Part 2 - convert networkx graphs to PyG and perform predictions
-
-import os
-import time
-import random
-import numpy as np
-
-import torch
-import torch.nn.functional as F
-from torch.nn import Linear, LayerNorm, LeakyReLU, ReLU, BatchNorm1d, Module, Sequential
-
-import torch_geometric
-from torch_geometric.data import Data, DataLoader
-from torch_geometric.data import Batch
-import torch_geometric.transforms as T
-from torch_geometric.utils import remove_self_loops, to_dense_adj, dense_to_sparse
-from torch_geometric.loader import DataLoader
-from torch_geometric.nn import MessagePassing, global_mean_pool
-from torch_scatter import scatter
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-
-import json
-import networkx as nx
-import copy
-
 class MPNNLayer(MessagePassing):
     def __init__(self, emb_dim=64, edge_dim=4, aggr='add'):
         super().__init__(aggr=aggr)
@@ -179,49 +200,13 @@ class MPNNModel(Module):
         out = self.lin_pred(h_graph)  
         return out.view(-1)  
     
-# Load embeddings
-embedding_df = pd.read_csv("embeddings.csv")
-embedded_atoms = list(embedding_df['Atoms'])
-embed_dict = {}
-for i in range(len(embedding_df)):
-    vec = np.fromstring(embedding_df.loc[i,'Embeddings'].replace('\n','').strip('[]'), sep=' ')
-    embed_dict[embedded_atoms[i]] = vec        
-embed_dict['H'] = np.zeros(30)
-
-# Load lookup table
-lookup_df = pd.read_csv("lookup.csv")
-atom_dict = {row['Element']: row['Z'] for _, row in lookup_df.iterrows()}
-
 # Load graph data (duplicates)
-graph_data = load_data_from_file("graph_data_duplicates.json")
+graph_data = load_data_from_file(duplicate_file)
 
 # Load the model, hard coded layer and embedding dimension with best parameters from hyperparameter tuning
 model = MPNNModel(num_layers=6, emb_dim=94, in_dim=49, edge_dim=4, out_dim=1)
-model.load_state_dict(torch.load('model.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load(model_file, map_location=torch.device('cpu')))
 model.eval()  # Make sure the model is in evaluation mode
-
-orb_list = ['1s',
-         '2s',
-         '2p',
-         '2p3/2',
-         '3s',
-         '3p',
-         '3p3/2',
-         '3d',
-         '3d5/2',
-         '4s',
-         '4p3/2',
-         '4d',
-         '4d5/2',
-         '4f7/2',
-         '5s',
-         '5p3/2',
-         '5d5/2']
-
-bond_dict = {'SINGLE':1, 'DOUBLE':2, 'TRIPLE':3, 'NONE':0}
-
-# Prepare a list for results
-results = []
 
 # Prepare a list for results
 results = []
@@ -285,4 +270,4 @@ for mol_name, graph in graph_data.items():
     results.append([mol_name.split('_')[0], atoms[target_atom_idx], target_orbital, (y_pred.item() + data.y)])
 
 results_df = pd.DataFrame(results, columns=['Molecule', 'Atom', 'Orbital', 'Binding Energy'])
-results_df.to_csv('results.csv', index=False)
+results_df.to_csv(result_file, index=False)
