@@ -10,6 +10,6 @@ We still need to install some more dependencies, do this with the command -
 
 pip install -r gnnpytorch_requirements.txt
 
-Step 2 - (relevant to the judges only) replace graph_data.json with a desired JSON file containing networkx graphs. Currently, graph_data.json contains the first
+Step 2 - (relevant to the judges only) replace graph_data.json with a desired JSON file containing networkx graphs. Currently, graph_data.json contains the first five molecules from the training data (with binding energy labels pruned).
 
 Step 3 - run "python generate_results.py", will produce results.csv
