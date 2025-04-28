@@ -1,3 +1,15 @@
-Step 1 - compile environment using source setup_material_characterize.sh (assumes the directory is on Midway)
-Step 2 - replace graph_data.json with a desired JSON file containing networkx graphs
+Step 1 - setup a new conda environment (assuming you have the base conda environment running) gnnpytorch_env by using the command -
+
+conda env create -f gnnpytorch_env.yml
+
+This will setup the basic dependencies you need to run the submission script, and may take 5-10 minutes. Following the create of this environment, switch to it using -
+
+conda activate gnnpytorch_env
+
+We still need to install some more dependencies, do this with the command -
+
+pip install -r gnnpytorch_requirements.txt
+
+Step 2 - (relevant to the judges only) replace graph_data.json with a desired JSON file containing networkx graphs. Currently, graph_data.json contains the first
+
 Step 3 - run "python generate_results.py", will produce results.csv
