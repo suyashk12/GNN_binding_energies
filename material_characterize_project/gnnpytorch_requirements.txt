@@ -1,8 +1,0 @@
---find-links https://download.pytorch.org/whl/cu118/torch_stable.html
-torch==2.2.0+cu118
-torchvision==0.17.0+cu118
-
---find-links https://pytorch-geometric.com/whl/torch-2.2.0+cu118.html
-torch-scatter
-torch-sparse
-torch-geometric
